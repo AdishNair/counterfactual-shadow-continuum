@@ -17,15 +17,29 @@ from experiments.cycle6_faults import optional_fault
 
 
 class Cycle6CampaignTests(unittest.TestCase):
-    def test_execute_creates_new_output_parent_before_capacity_preflight(self):
+    def test_short_campaign_does_not_apply_continuous_capacity_preflight(self):
         with tempfile.TemporaryDirectory() as root:
             target = Path(root) / "new-parent" / "series"
-            with patch.object(campaign, "capacity", return_value={"free_disk_bytes": 3 * campaign.GIB,
-                                                                   "available_memory_bytes": 3 * campaign.GIB}), \
-                 patch.object(campaign, "prepare", side_effect=RuntimeError("stop after preflight")):
-                with self.assertRaisesRegex(RuntimeError, "stop after preflight"):
-                    campaign.execute(target, "gate")
+            metadata = {"registry": [], "source_hashes": {}, "configs": {}, "config_hashes": {}}
+            with patch.object(campaign, "capacity") as forbidden, \
+                 patch.object(campaign, "prepare", return_value=metadata), \
+                 patch.object(campaign, "atomic"):
+                result = campaign.execute(target, "gate")
+            forbidden.assert_not_called()
             self.assertTrue(target.parent.is_dir())
+
+    def test_continuous_run_requires_frozen_capacity_threshold(self):
+        with tempfile.TemporaryDirectory() as root:
+            target = Path(root) / "series"
+            row = {"run_id": "continuous", "kind": "continuous"}
+            metadata = {"registry": [row], "source_hashes": {}, "configs": {"continuous": {}},
+                        "config_hashes": {"continuous": {}}}
+            with patch.object(campaign, "prepare", return_value=metadata), \
+                 patch.object(campaign, "capacity", return_value={"free_disk_bytes": 3 * campaign.GIB,
+                                                                   "available_memory_bytes": campaign.GIB}), \
+                 patch.object(campaign, "atomic"):
+                result = campaign.execute(target, "gate")
+            self.assertEqual(result["status"], "HAS_FAILED_OR_UNATTEMPTED_RUNS")
 
     def test_exact_registry_and_seed_units(self):
         rows = campaign.registry()

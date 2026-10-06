@@ -358,9 +358,6 @@ def execute(series, gate_path, smoke=False):
     series = Path(series).resolve()
     if not smoke:
         series.parent.mkdir(parents=True, exist_ok=True)
-        measured = capacity(series.parent)
-        if min(measured.values()) < 2 * GIB:
-            raise RuntimeError("preflight requires 2 GiB free disk and available memory")
     meta = prepare(series, gate_path, smoke)
     statuses = [dict(run_id=r["run_id"], status="NOT_ATTEMPTED") for r in meta["registry"]]
     paired = {}
@@ -371,6 +368,11 @@ def execute(series, gate_path, smoke=False):
         status.update(status="RUNNING", started_utc=datetime.now(timezone.utc).isoformat())
         atomic(series / "execution_status.json", statuses)
         try:
+            if row["kind"] == "continuous":
+                measured = capacity(series)
+                status["long_run_preflight"] = measured
+                if min(measured.values()) < 2 * GIB:
+                    raise RuntimeError("continuous-run preflight requires 2 GiB free disk and available memory")
             verify_archive(series)
             timeout = 300 + 2 * meta["configs"][row["run_id"]]["duration_epochs"]
             result = execute_child([sys.executable, "-m", "experiments.cycle6_campaign", "run-one",
