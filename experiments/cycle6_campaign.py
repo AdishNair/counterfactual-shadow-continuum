@@ -357,6 +357,7 @@ def inspect_integrity(series, row, meta):
 def execute(series, gate_path, smoke=False):
     series = Path(series).resolve()
     if not smoke:
+        series.parent.mkdir(parents=True, exist_ok=True)
         measured = capacity(series.parent)
         if min(measured.values()) < 2 * GIB:
             raise RuntimeError("preflight requires 2 GiB free disk and available memory")

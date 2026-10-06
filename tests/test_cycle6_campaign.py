@@ -17,6 +17,16 @@ from experiments.cycle6_faults import optional_fault
 
 
 class Cycle6CampaignTests(unittest.TestCase):
+    def test_execute_creates_new_output_parent_before_capacity_preflight(self):
+        with tempfile.TemporaryDirectory() as root:
+            target = Path(root) / "new-parent" / "series"
+            with patch.object(campaign, "capacity", return_value={"free_disk_bytes": 3 * campaign.GIB,
+                                                                   "available_memory_bytes": 3 * campaign.GIB}), \
+                 patch.object(campaign, "prepare", side_effect=RuntimeError("stop after preflight")):
+                with self.assertRaisesRegex(RuntimeError, "stop after preflight"):
+                    campaign.execute(target, "gate")
+            self.assertTrue(target.parent.is_dir())
+
     def test_exact_registry_and_seed_units(self):
         rows = campaign.registry()
         self.assertEqual(len(rows), 70)
