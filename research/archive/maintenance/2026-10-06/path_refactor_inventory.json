@@ -1,0 +1,523 @@
+{
+  "changed_current_tree_files": [
+    "IMPLEMENTATION_STATUS.md",
+    "RESULTS.md",
+    "docs/DOMAIN_INTERFACE.md",
+    "experiments/analyze_counterfactual_failure.py",
+    "experiments/analyze_failure_taxonomy.py",
+    "experiments/analyze_reference_fidelity.py",
+    "experiments/cycle4_async.py",
+    "experiments/cycle4_trust.py",
+    "experiments/cycle5_async.py",
+    "experiments/cycle5_delivery_audit.py",
+    "experiments/cycle5_faults.py",
+    "experiments/cycle5_finalize.py",
+    "experiments/cycle5_hardening_analysis.py",
+    "experiments/cycle5_hardening_rereview_analysis.py",
+    "experiments/cycle5_hardening_v3_analysis.py",
+    "experiments/cycle5_hardening_v4_analysis.py",
+    "experiments/cycle5_hardening_v5_analysis.py",
+    "experiments/cycle5_instrumentation_analysis.py",
+    "experiments/cycle5_loss.py",
+    "experiments/verify_cycle4_reproducibility.py",
+    "research/async_state_machine_audit.md",
+    "research/CLAIM_EVIDENCE_MATRIX.md",
+    "research/confirmatory_factorial_amendment.md",
+    "research/cycle3_synthesis.md",
+    "research/cycle4_async_analysis.md",
+    "research/cycle4_protocol_preflight.md",
+    "research/cycle4_trust_analysis.md",
+    "research/cycle4_trust_preoutcome_specification.md",
+    "research/cycle4_trust_source_isolation_audit.md",
+    "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+    "research/cycle5_instrumentation_diagnostic.md",
+    "research/cycle5_post_review_rereview.md",
+    "research/cycle5_post_review_rereview_v2.md",
+    "research/cycle5_post_review_rereview_v3.md",
+    "research/cycle5_post_review_rereview_v4.md",
+    "research/cycle5_post_review_rereview_v5.md",
+    "research/cycle5_protocol.md",
+    "research/cycle5_protocol_rereview.md",
+    "research/cycle5_protocol_review.md",
+    "research/cycle5_red_team_review.md",
+    "research/cycle5_results_analysis.md",
+    "research/DOCUMENTATION_AUDIT.md",
+    "research/DOCUMENTATION_CLEANUP_REPORT.md",
+    "research/experiment_protocol.md",
+    "research/failure_analysis.md",
+    "research/information_timing_audit.md",
+    "research/limitations.md",
+    "research/novelty_analysis.md",
+    "research/red_team_cycle4_review.md",
+    "research/red_team_factorial_review.md",
+    "research/red_team_review.md",
+    "research/reference_fidelity_analysis.md",
+    "research/results_analysis.md",
+    "research/runtime_retention_design.md",
+    "research/trust_signals.md",
+    "research/uncertainty_taxonomy.md",
+    "research/tables/cycle4_local_validation.json",
+    "research/tables/cycle5_delivery_audit.json",
+    "research/tables/reference-fidelity-smoke.md"
+  ],
+  "deleted": [
+    "research/cycle5_post_review_rereviewer_execution.log",
+    "research/cycle5_post_review_rereviewer_v2_execution.log",
+    "research/cycle5_post_review_rereviewer_v3_execution.log",
+    "research/cycle5_post_review_rereviewer_v4_execution.log",
+    "research/cycle5_post_review_rereviewer_v5_execution.log",
+    "research/cycle5_protocol_rereviewer_execution.log",
+    "research/cycle5_protocol_reviewer_execution.log",
+    "research/cycle5_protocol_reviewer_execution_v2.log",
+    "research/cycle5_red_team_reviewer_execution.log",
+    "research.zip",
+    "csc/__pycache__/",
+    "experiments/__pycache__/",
+    "tests/__pycache__/"
+  ],
+  "moves": {
+    "research/CYCLE4_EXECUTIVE_SUMMARY.md": "research/evidence/cycle4/CYCLE4_EXECUTIVE_SUMMARY.md",
+    "research/CYCLE5_EXECUTIVE_SUMMARY.md": "research/evidence/cycle5/CYCLE5_EXECUTIVE_SUMMARY.md",
+    "research/DOCUMENTATION_AUDIT.md": "research/archive/maintenance/2026-10-06/DOCUMENTATION_AUDIT.md",
+    "research/DOCUMENTATION_CLEANUP_REPORT.md": "research/archive/maintenance/2026-10-06/DOCUMENTATION_CLEANUP_REPORT.md",
+    "research/async_noninterference_design.md": "research/evidence/cycle3/async_noninterference_design.md",
+    "research/async_state_machine_audit.md": "research/evidence/cycle4/async_state_machine_audit.md",
+    "research/bibliography.bib": "research/literature/bibliography.bib",
+    "research/confirmatory_factorial_amendment.md": "research/evidence/cycle2/confirmatory_factorial_amendment.md",
+    "research/counterfactual_uncertainty_literature.md": "research/evidence/cycle3/counterfactual_uncertainty_literature.md",
+    "research/counterfactual_validity.md": "research/evidence/cycle1/counterfactual_validity.md",
+    "research/cycle3_analysis_protocol.md": "research/evidence/cycle3/cycle3_analysis_protocol.md",
+    "research/cycle3_synthesis.md": "research/evidence/cycle3/cycle3_synthesis.md",
+    "research/cycle4_async_analysis.md": "research/evidence/cycle4/cycle4_async_analysis.md",
+    "research/cycle4_async_protocol.md": "research/evidence/cycle4/cycle4_async_protocol.md",
+    "research/cycle4_protocol_preflight.md": "research/archive/cycle4/protocol_support/cycle4_protocol_preflight.md",
+    "research/cycle4_reproducibility_audit.md": "research/evidence/cycle4/cycle4_reproducibility_audit.md",
+    "research/cycle4_trust_analysis.md": "research/evidence/cycle4/cycle4_trust_analysis.md",
+    "research/cycle4_trust_preflight_verification.json": "research/archive/cycle4/protocol_support/cycle4_trust_preflight_verification.json",
+    "research/cycle4_trust_preoutcome_specification.md": "research/archive/cycle4/protocol_support/cycle4_trust_preoutcome_specification.md",
+    "research/cycle4_trust_report_template.md": "research/archive/cycle4/protocol_support/cycle4_trust_report_template.md",
+    "research/cycle4_trust_source_isolation_audit.md": "research/archive/cycle4/protocol_support/cycle4_trust_source_isolation_audit.md",
+    "research/cycle4_trust_stage_ledger.json": "research/archive/cycle4/protocol_support/cycle4_trust_stage_ledger.json",
+    "research/cycle5_evidence_loss_analysis.md": "research/evidence/cycle5/cycle5_evidence_loss_analysis.md",
+    "research/cycle5_failure_recovery.md": "research/evidence/cycle5/cycle5_failure_recovery.md",
+    "research/cycle5_instrumentation_diagnostic.md": "research/evidence/cycle5/cycle5_instrumentation_diagnostic.md",
+    "research/cycle5_post_review_campaign_hardening.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_campaign_hardening.md",
+    "research/cycle5_post_review_hardening.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_hardening.md",
+    "research/cycle5_post_review_hardening_v2.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_hardening_v2.md",
+    "research/cycle5_post_review_hardening_v3.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_hardening_v3.md",
+    "research/cycle5_post_review_hardening_v4.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_hardening_v4.md",
+    "research/cycle5_post_review_hardening_v5.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_hardening_v5.md",
+    "research/cycle5_post_review_rereview.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_rereview.md",
+    "research/cycle5_post_review_rereview_v2.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_rereview_v2.md",
+    "research/cycle5_post_review_rereview_v3.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_rereview_v3.md",
+    "research/cycle5_post_review_rereview_v4.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_rereview_v4.md",
+    "research/cycle5_post_review_rereview_v5.md": "research/archive/cycle5/post_collection_hardening/cycle5_post_review_rereview_v5.md",
+    "research/cycle5_protocol.md": "research/evidence/cycle5/cycle5_protocol.md",
+    "research/cycle5_protocol_rereview.md": "research/archive/cycle5/protocol_review/cycle5_protocol_rereview.md",
+    "research/cycle5_protocol_review.md": "research/archive/cycle5/protocol_review/cycle5_protocol_review.md",
+    "research/cycle5_red_team_review.md": "research/evidence/cycle5/cycle5_red_team_review.md",
+    "research/cycle5_reproducibility_audit.md": "research/evidence/cycle5/cycle5_reproducibility_audit.md",
+    "research/cycle5_results_analysis.md": "research/evidence/cycle5/cycle5_results_analysis.md",
+    "research/domain_adapter_readiness.md": "research/evidence/cycle4/domain_adapter_readiness.md",
+    "research/experiment_protocol.md": "research/evidence/cycle1/experiment_protocol.md",
+    "research/experiments.md": "research/evidence/cycle1/experiments.md",
+    "research/failure_analysis.md": "research/evidence/cycle3/failure_analysis.md",
+    "research/generalization.md": "research/evidence/cycle1/generalization.md",
+    "research/information_timing_audit.md": "research/evidence/cycle5/information_timing_audit.md",
+    "research/limitations.md": "research/evidence/cycle1/limitations.md",
+    "research/literature_review.md": "research/evidence/cycle1/literature_review.md",
+    "research/methodology.md": "research/evidence/cycle1/methodology.md",
+    "research/novelty_analysis.md": "research/evidence/cycle1/novelty_analysis.md",
+    "research/red_team_cycle3_review.md": "research/evidence/cycle3/red_team_cycle3_review.md",
+    "research/red_team_cycle4_review.md": "research/evidence/cycle4/red_team_cycle4_review.md",
+    "research/red_team_factorial_review.md": "research/evidence/cycle2/red_team_factorial_review.md",
+    "research/red_team_review.md": "research/evidence/cycle1/red_team_review.md",
+    "research/reference_fidelity_analysis.md": "research/evidence/cycle1/reference_fidelity_analysis.md",
+    "research/related_work_matrix.csv": "research/literature/related_work_matrix.csv",
+    "research/research_questions.md": "research/evidence/cycle1/research_questions.md",
+    "research/results_analysis.md": "research/evidence/cycle1/results_analysis.md",
+    "research/runtime_retention_design.md": "research/evidence/cycle5/runtime_retention_design.md",
+    "research/statistical_methodology.md": "research/evidence/cycle1/statistical_methodology.md",
+    "research/trust_signal_experiment_protocol.md": "research/archive/cycle4/protocol_support/trust_signal_experiment_protocol.md",
+    "research/trust_signals.md": "research/evidence/cycle3/trust_signals.md",
+    "research/uncertainty_taxonomy.md": "research/evidence/cycle3/uncertainty_taxonomy.md",
+    "research/warm_worker_correctness.md": "research/evidence/cycle5/warm_worker_correctness.md"
+  },
+  "pre_move_current_tree_references": {
+    "research/CYCLE4_EXECUTIVE_SUMMARY.md": [
+      "RESULTS.md",
+      "research/cycle5_protocol_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/information_timing_audit.md"
+    ],
+    "research/CYCLE5_EXECUTIVE_SUMMARY.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/DOCUMENTATION_AUDIT.md": [
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/DOCUMENTATION_CLEANUP_REPORT.md"
+    ],
+    "research/DOCUMENTATION_CLEANUP_REPORT.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/async_noninterference_design.md": [
+      "research/cycle3_synthesis.md",
+      "research/cycle4_protocol_preflight.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/async_state_machine_audit.md": [
+      "research/cycle4_async_analysis.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/bibliography.bib": [],
+    "research/confirmatory_factorial_amendment.md": [
+      "RESULTS.md",
+      "experiments/analyze_failure_taxonomy.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/experiment_protocol.md",
+      "research/red_team_factorial_review.md",
+      "research/reference_fidelity_analysis.md",
+      "research/results_analysis.md"
+    ],
+    "research/counterfactual_uncertainty_literature.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/counterfactual_validity.md": [
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_review.md"
+    ],
+    "research/cycle3_analysis_protocol.md": [
+      "experiments/analyze_counterfactual_failure.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/failure_analysis.md"
+    ],
+    "research/cycle3_synthesis.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle4_async_analysis.md": [
+      "RESULTS.md",
+      "research/async_state_machine_audit.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle4_async_protocol.md": [
+      "experiments/cycle4_async.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/cycle4_protocol_preflight.md": [
+      "research/cycle4_trust_source_isolation_audit.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/cycle4_reproducibility_audit.md": [
+      "RESULTS.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle4_trust_analysis.md": [
+      "RESULTS.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/information_timing_audit.md"
+    ],
+    "research/cycle4_trust_preflight_verification.json": [
+      "experiments/cycle4_trust.py",
+      "research/cycle4_protocol_preflight.md"
+    ],
+    "research/cycle4_trust_preoutcome_specification.md": [
+      "experiments/cycle4_trust.py",
+      "research/cycle4_protocol_preflight.md",
+      "research/cycle4_trust_source_isolation_audit.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/cycle4_trust_report_template.md": [
+      "experiments/cycle4_trust.py",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle4_trust_source_isolation_audit.md": [
+      "experiments/cycle4_trust.py",
+      "research/cycle4_protocol_preflight.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/cycle4_trust_stage_ledger.json": [
+      "experiments/verify_cycle4_reproducibility.py",
+      "research/red_team_cycle4_review.md"
+    ],
+    "research/cycle5_evidence_loss_analysis.md": [
+      "RESULTS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_finalize.py",
+      "experiments/cycle5_loss.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_failure_recovery.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "RESULTS.md",
+      "experiments/cycle5_async.py",
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_faults.py",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_instrumentation_diagnostic.md": [
+      "experiments/cycle5_instrumentation_analysis.py",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle5_post_review_campaign_hardening.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+      "research/cycle5_post_review_rereview.md",
+      "research/cycle5_post_review_rereview_v2.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_hardening.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "RESULTS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_hardening_analysis.py",
+      "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_hardening_v2.md": [
+      "experiments/cycle5_hardening_rereview_analysis.py",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle5_post_review_hardening_v3.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_hardening_v3_analysis.py",
+      "research/cycle5_post_review_rereview_v3.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_hardening_v4.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_hardening_v4_analysis.py",
+      "research/cycle5_post_review_rereview_v4.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_hardening_v5.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_hardening_v5_analysis.py",
+      "research/cycle5_post_review_rereview_v5.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_rereview.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+      "research/cycle5_post_review_rereview.md",
+      "research/cycle5_post_review_rereview_v2.md",
+      "research/cycle5_results_analysis.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_rereview_v2.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/cycle5_post_review_rereview_v2.md",
+      "research/cycle5_post_review_rereview_v3.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_rereview_v3.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/cycle5_post_review_rereview_v3.md",
+      "research/cycle5_post_review_rereview_v4.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_rereview_v4.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/cycle5_post_review_rereview_v4.md",
+      "research/cycle5_post_review_rereview_v5.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_post_review_rereview_v5.md": [
+      "RESULTS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "research/cycle5_post_review_rereview_v5.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_protocol.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "RESULTS.md",
+      "experiments/cycle5_async.py",
+      "experiments/cycle5_delivery_audit.py",
+      "research/cycle5_protocol_rereview.md",
+      "research/cycle5_protocol_review.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_protocol_rereview.md": [
+      "experiments/cycle5_async.py",
+      "research/cycle5_protocol.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle5_protocol_review.md": [
+      "experiments/cycle5_async.py",
+      "research/cycle5_protocol.md",
+      "research/cycle5_protocol_rereview.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle5_red_team_review.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "RESULTS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+      "research/cycle5_post_review_rereview.md",
+      "research/cycle5_red_team_review.md",
+      "research/cycle5_results_analysis.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/cycle5_reproducibility_audit.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/cycle5_results_analysis.md": [
+      "RESULTS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "experiments/cycle5_finalize.py",
+      "experiments/cycle5_instrumentation_analysis.py",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/CYCLE5_EXECUTIVE_SUMMARY.md",
+      "research/cycle5_instrumentation_diagnostic.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/runtime_retention_design.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/domain_adapter_readiness.md": [
+      "docs/DOMAIN_INTERFACE.md",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/information_timing_audit.md"
+    ],
+    "research/experiment_protocol.md": [
+      "experiments/analyze_reference_fidelity.py",
+      "research/confirmatory_factorial_amendment.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/reference_fidelity_analysis.md",
+      "research/tables/reference-fidelity-smoke.md"
+    ],
+    "research/experiments.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/failure_analysis.md": [
+      "experiments/analyze_counterfactual_failure.py",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/generalization.md": [
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/limitations.md"
+    ],
+    "research/information_timing_audit.md": [
+      "experiments/cycle5_delivery_audit.py",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/limitations.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/literature_review.md": [
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/novelty_analysis.md"
+    ],
+    "research/methodology.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/novelty_analysis.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/red_team_cycle3_review.md": [
+      "research/cycle4_protocol_preflight.md",
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/red_team_cycle4_review.md": [
+      "RESULTS.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle4_local_validation.json"
+    ],
+    "research/red_team_factorial_review.md": [
+      "RESULTS.md",
+      "experiments/analyze_failure_taxonomy.py",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/limitations.md",
+      "research/reference_fidelity_analysis.md",
+      "research/results_analysis.md"
+    ],
+    "research/red_team_review.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/reference_fidelity_analysis.md": [
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/experiment_protocol.md",
+      "research/limitations.md"
+    ],
+    "research/related_work_matrix.csv": [
+      "research/novelty_analysis.md"
+    ],
+    "research/research_questions.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/results_analysis.md": [
+      "RESULTS.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/limitations.md",
+      "research/red_team_review.md"
+    ],
+    "research/runtime_retention_design.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "experiments/cycle5_delivery_audit.py",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ],
+    "research/statistical_methodology.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/trust_signal_experiment_protocol.md": [
+      "experiments/cycle4_trust.py",
+      "research/cycle3_synthesis.md",
+      "research/cycle4_protocol_preflight.md",
+      "research/cycle4_trust_analysis.md",
+      "research/cycle4_trust_preoutcome_specification.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/red_team_cycle4_review.md",
+      "research/trust_signals.md",
+      "research/uncertainty_taxonomy.md"
+    ],
+    "research/trust_signals.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/uncertainty_taxonomy.md": [
+      "research/DOCUMENTATION_AUDIT.md"
+    ],
+    "research/warm_worker_correctness.md": [
+      "IMPLEMENTATION_STATUS.md",
+      "experiments/cycle5_async.py",
+      "experiments/cycle5_delivery_audit.py",
+      "research/CLAIM_EVIDENCE_MATRIX.md",
+      "research/cycle5_red_team_review.md",
+      "research/DOCUMENTATION_AUDIT.md",
+      "research/tables/cycle5_delivery_audit.json"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+series,anchors,mirror_q25,mirror_q75,alternative_q25,alternative_q75
+initial_evaluation,2160,0.0,1.6666666666666679,0.0,1.6750000000000007
+calibration,2160,0.0,1.6499999999999986,0.0,1.6749999999999998
+heldout_evaluation,2160,0.0,1.75,0.0,1.5999999999999979

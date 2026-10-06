@@ -1,0 +1,112 @@
+{
+  "series": "results\\reference-fidelity\\all-action-smoke-20260928",
+  "runs_verified": 8,
+  "branches_replayed": 640,
+  "trajectory_mismatches": 0,
+  "results": [
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h2-rate2-seed201-7dd066543d5c",
+      "experiment_id": "reference-h2-rate2-seed201-7dd066543d5c",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h2-rate4-seed201-f8d0dbab3898",
+      "experiment_id": "reference-h2-rate4-seed201-f8d0dbab3898",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h6-rate2-seed201-500ce938c6a7",
+      "experiment_id": "reference-h6-rate2-seed201-500ce938c6a7",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h6-rate4-seed201-37114f1c1ed2",
+      "experiment_id": "reference-h6-rate4-seed201-37114f1c1ed2",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h2-rate2-seed202-cb796d2d211b",
+      "experiment_id": "reference-h2-rate2-seed202-cb796d2d211b",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h2-rate4-seed202-c7288e691f4c",
+      "experiment_id": "reference-h2-rate4-seed202-c7288e691f4c",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h6-rate2-seed202-1bcf6a7c97b4",
+      "experiment_id": "reference-h6-rate2-seed202-1bcf6a7c97b4",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    },
+    {
+      "run_path": "results\\reference-fidelity\\all-action-smoke-20260928\\reference-h6-rate4-seed202-4f59fa72a6c4",
+      "experiment_id": "reference-h6-rate4-seed202-4f59fa72a6c4",
+      "branches_replayed": 80,
+      "incomplete_branches_skipped": 0,
+      "trajectory_mismatches": 0,
+      "artifact_integrity": "VERIFIED",
+      "source_identity": "VERIFIED",
+      "source_identity_details": {
+        "source_root": "C:\\Users\\Adish\\HelloCode\\CC_CP",
+        "files_verified": 13
+      }
+    }
+  ]
+}

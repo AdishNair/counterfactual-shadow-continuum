@@ -1,0 +1,62 @@
+{
+  "async": {
+    "branches_replayed": 3964,
+    "raw_summary_regeneration": "MATCH",
+    "replay_execution_source": "ARCHIVED_SOURCE_BUNDLE",
+    "runs_verified": 162,
+    "source_archive_hashes_verified": 17,
+    "status": "VERIFIED"
+  },
+  "failures": [],
+  "heldout_access_audit": "runner gating, immutable stage ledger and absence of a final series; arbitrary filesystem reads are not observable",
+  "machine_details": "research/tables/cycle4-reproducibility-async-verification.json",
+  "scope": "Cycle 4 immutable series only; historical series are not rewritten or rehashed here",
+  "status": "VERIFIED",
+  "trust_calibration": {
+    "analysis_candidate_checks": 17,
+    "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+    "counts": {
+      "anchors": 9600,
+      "feature_AVAILABLE": 7680,
+      "feature_UNSUPPORTED_SEMANTICS": 1920,
+      "replayed_action_pairs": 28800,
+      "runs": 1200
+    },
+    "expected_cells": 60,
+    "expected_runs": 1200,
+    "passed": true,
+    "phase": "calibration",
+    "seed_range": [
+      821,
+      840
+    ],
+    "split_overlap": false
+  },
+  "trust_development": {
+    "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+    "counts": {
+      "anchors": 9600,
+      "feature_AVAILABLE": 7680,
+      "feature_UNSUPPORTED_SEMANTICS": 1920,
+      "replayed_action_pairs": 28800,
+      "runs": 1200
+    },
+    "expected_cells": 60,
+    "expected_runs": 1200,
+    "passed": true,
+    "phase": "development",
+    "seed_range": [
+      801,
+      820
+    ],
+    "split_overlap": false
+  },
+  "trust_final_heldout_directories": [],
+  "trust_full_analysis_regeneration": {
+    "calibration-selection.json": true,
+    "candidate-cell-summary.csv": true,
+    "candidate-run-summary.csv": true,
+    "negative-controls.json": true
+  },
+  "trust_verification_source": "ARCHIVED_SOURCE_BUNDLE"
+}

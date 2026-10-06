@@ -1,0 +1,23 @@
+{
+  "version": "cycle4-frozen-v1",
+  "horizons": [2, 6, 20],
+  "demand": ["light", "peak"],
+  "incident": ["none", "blocked_ew"],
+  "mismatch": {
+    "aligned-control": {"heterogeneous": false, "sem_rate": 2, "model_incidents": true},
+    "heterogeneity-only": {"heterogeneous": true, "sem_rate": 2, "model_incidents": true},
+    "rate-only": {"heterogeneous": false, "sem_rate": 4, "model_incidents": true},
+    "incident-knowledge-only": {"heterogeneous": false, "sem_rate": 2, "model_incidents": false},
+    "combined-rate-plus-incident": {"heterogeneous": false, "sem_rate": 4, "model_incidents": false}
+  },
+  "splits": {"development": [801, 820], "calibration": [821, 840], "final-held-out": [841, 860]},
+  "anchors_per_run": 8,
+  "history_ticks_between_anchors": 8,
+  "production_rate": 2,
+  "order_seed": 91357,
+  "tie_tolerance": 1e-9,
+  "quantiles": [0.25, 0.5, 0.75, 1],
+  "bootstrap_iterations": 1000,
+  "controls": {"seed": 43017, "strata": ["horizon", "demand", "incident"], "labels_strata": ["horizon", "demand", "incident", "mismatch"], "constant_divergence": 0, "permutations": 100},
+  "prior_series_role": "exploratory hypothesis generation only"
+}

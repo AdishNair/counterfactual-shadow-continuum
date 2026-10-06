@@ -1,0 +1,33 @@
+{
+  "candidates": [
+    {
+      "multiplier": 1.0,
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "abstention_rate": 0.6666666666666666,
+      "qualifies": true
+    },
+    {
+      "multiplier": 1.5,
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "abstention_rate": 0.6666666666666666,
+      "qualifies": true
+    },
+    {
+      "multiplier": 2.0,
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "abstention_rate": 1.0,
+      "qualifies": false
+    },
+    {
+      "multiplier": 3.0,
+      "precision": 1.0,
+      "false_positive_rate": 0.0,
+      "abstention_rate": 1.0,
+      "qualifies": false
+    }
+  ],
+  "selected_multiplier": 1.0
+}

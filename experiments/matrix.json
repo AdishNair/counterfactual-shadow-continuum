@@ -1,0 +1,1 @@
+{"schema_version":1,"seeds":[1,2,3,4,5],"shadow_counts":[0,1,2],"duration_epochs":100,"warmup_epochs":10,"workload_profile":"peak"}

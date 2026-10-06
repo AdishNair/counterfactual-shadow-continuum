@@ -1,0 +1,10 @@
+{
+  "series": "results\\reference-fidelity\\confirmatory-calibration-20260928",
+  "runs_verified": 720,
+  "anchors_verified": 2160,
+  "action_observations_verified": 6480,
+  "artifact_integrity": "VERIFIED",
+  "source_identity": "VERIFIED",
+  "reference_kind": "AUTHORED_PRODUCTION_SOFTWARE_ENVIRONMENT",
+  "verifier_sha256": "fd57976e8a7fc6e3429460f77adbc3130ad981e83bcc6917f9f631aee24720a3"
+}

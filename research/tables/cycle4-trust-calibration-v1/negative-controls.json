@@ -1,0 +1,35 @@
+{
+  "constant_divergence": {
+    "abstention": 0.5726041666666667,
+    "coverage": 0.4273958333333333,
+    "precision": 0.959054350475262
+  },
+  "interpretation": "Secondary descriptive controls; no threshold selection, no confirmatory multiple-testing claim",
+  "label_permutation": {
+    "diagnostic_tail_fraction": 0.009900990099009901,
+    "null_max": 0.24082738095238093,
+    "null_mean": 0.229889751984127,
+    "null_min": 0.21740873015873016,
+    "observed_mean_run_precision": 0.4191170634920635,
+    "permutations": 100
+  },
+  "observed": {
+    "abstention": 0.8240625,
+    "coverage": 0.1759375,
+    "precision": 0.9840142095914742
+  },
+  "rule": {
+    "baseline_equivalent": false,
+    "d": 27.53565787126474,
+    "duplicate_of": null,
+    "family": "DIVERGENCE",
+    "h": null,
+    "id": "divergence-q0.5",
+    "q": 0.5
+  },
+  "shuffled_divergence": {
+    "abstention": 0.8138541666666667,
+    "coverage": 0.18614583333333334,
+    "precision": 0.9916060436485731
+  }
+}

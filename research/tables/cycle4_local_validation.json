@@ -1,0 +1,31 @@
+{
+  "status": "PASS_WITH_RETAINED_PRIOR_CAVEAT",
+  "scope": "Current-tree local tests; not deployment validation or retrospective validation of later fixes in measured source",
+  "recording_method": "Retrospective summary of completed tool executions and independent review; not a raw test-run transcript",
+  "final_suite": {
+    "command": "python -m unittest discover -s tests -v",
+    "tests_run": 54,
+    "async_tests": 16,
+    "trust_tests": 15,
+    "other_tests": 23,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 29.807,
+    "status": "PASS"
+  },
+  "preserved_prior_attempt": {
+    "tests_run": 54,
+    "failures": 1,
+    "affected_test": "test_http_backend_and_denied_mutation",
+    "observation": "Two excluded localhost HTTP windows rather than zero; connection aborted with WinError 10053",
+    "context": "Concurrent archived-source reproducibility audit",
+    "interpretation": "Inconclusive timing caveat; concurrency was not established as the cause"
+  },
+  "independent_numeric_regression": {
+    "test": "tests.test_async.AsyncTests.test_finite_metrics_with_overflowing_utility_are_rejected",
+    "status": "PASS",
+    "evidence": "research/evidence/cycle4/red_team_cycle4_review.md",
+    "measured_source_archive_modified": false
+  },
+  "earlier_transition_snapshot": "research/tables/cycle4_async_transition_tests.json"
+}

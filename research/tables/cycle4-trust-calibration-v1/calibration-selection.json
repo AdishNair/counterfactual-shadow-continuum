@@ -1,0 +1,3123 @@
+{
+  "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+  "candidates": [
+    {
+      "mean_cell_median_coverage": 0.421875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 29,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": true,
+        "d": null,
+        "duplicate_of": null,
+        "family": "BASELINE",
+        "h": null,
+        "id": "baseline",
+        "q": null
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.07604166666666666,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 5,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 6.0,
+        "duplicate_of": null,
+        "family": "DIVERGENCE",
+        "h": null,
+        "id": "divergence-q0.25",
+        "q": 0.25
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.07604166666666666,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 5,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 6.0,
+        "duplicate_of": null,
+        "family": "DIVERGENCE_HORIZON",
+        "h": 2,
+        "id": "divergence-horizon-q0.25-h2",
+        "q": 0.25
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.07604166666666666,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 5,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 6.0,
+        "duplicate_of": null,
+        "family": "DIVERGENCE_HORIZON",
+        "h": 6,
+        "id": "divergence-horizon-q0.25-h6",
+        "q": 0.25
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.07604166666666666,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 5,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 6.0,
+        "duplicate_of": "divergence-q0.25",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 20,
+        "id": "divergence-horizon-q0.25-h20",
+        "q": 0.25
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.1625,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 13,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 27.53565787126474,
+        "duplicate_of": null,
+        "family": "DIVERGENCE",
+        "h": null,
+        "id": "divergence-q0.5",
+        "q": 0.5
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.121875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 11,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 27.53565787126474,
+        "duplicate_of": null,
+        "family": "DIVERGENCE_HORIZON",
+        "h": 2,
+        "id": "divergence-horizon-q0.5-h2",
+        "q": 0.5
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.15520833333333334,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 13,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 27.53565787126474,
+        "duplicate_of": null,
+        "family": "DIVERGENCE_HORIZON",
+        "h": 6,
+        "id": "divergence-horizon-q0.5-h6",
+        "q": 0.5
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.1625,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 13,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 27.53565787126474,
+        "duplicate_of": "divergence-q0.5",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 20,
+        "id": "divergence-horizon-q0.5-h20",
+        "q": 0.5
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.3072916666666667,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 23,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 104.69210862021271,
+        "duplicate_of": null,
+        "family": "DIVERGENCE",
+        "h": null,
+        "id": "divergence-q0.75",
+        "q": 0.75
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.121875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 11,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 104.69210862021271,
+        "duplicate_of": "divergence-horizon-q0.5-h2",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 2,
+        "id": "divergence-horizon-q0.75-h2",
+        "q": 0.75
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.253125,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 21,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 104.69210862021271,
+        "duplicate_of": null,
+        "family": "DIVERGENCE_HORIZON",
+        "h": 6,
+        "id": "divergence-horizon-q0.75-h6",
+        "q": 0.75
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.3072916666666667,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 23,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 104.69210862021271,
+        "duplicate_of": "divergence-q0.75",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 20,
+        "id": "divergence-horizon-q0.75-h20",
+        "q": 0.75
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.421875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 29,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": true,
+        "d": 1135.089625124064,
+        "duplicate_of": "baseline",
+        "family": "DIVERGENCE",
+        "h": null,
+        "id": "divergence-q1",
+        "q": 1
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.121875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 11,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 1135.089625124064,
+        "duplicate_of": "divergence-horizon-q0.5-h2",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 2,
+        "id": "divergence-horizon-q1-h2",
+        "q": 1
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.253125,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 21,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": false,
+        "d": 1135.089625124064,
+        "duplicate_of": "divergence-horizon-q0.75-h6",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 6,
+        "id": "divergence-horizon-q1-h6",
+        "q": 1
+      }
+    },
+    {
+      "mean_cell_median_coverage": 0.421875,
+      "minimum_cell_median_coverage": 0.0,
+      "passing_cells": 29,
+      "qualifies": false,
+      "rule": {
+        "baseline_equivalent": true,
+        "d": 1135.089625124064,
+        "duplicate_of": "baseline",
+        "family": "DIVERGENCE_HORIZON",
+        "h": 20,
+        "id": "divergence-horizon-q1-h20",
+        "q": 1
+      }
+    }
+  ],
+  "decision": "D",
+  "final_heldout": "NOT RUN: no qualified calibration candidate",
+  "global_metrics": {
+    "baseline": {
+      "abstention": 0.5726041666666667,
+      "accepted_actions": {
+        "BALANCED": 990,
+        "EW_GREEN": 361,
+        "NS_GREEN": 2752
+      },
+      "coverage": 0.4273958333333333,
+      "eligible": 9600,
+      "false_negative_rate": 0.2902588066139468,
+      "false_positive_rate": 0.041237113402061855,
+      "fp": 168,
+      "median_run_metrics": {
+        "abstention": 0.625,
+        "choice_value_loss": 0.5,
+        "coverage": 0.375,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.0,
+        "precision": 1.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.959054350475262,
+      "seed_bootstrap": {
+        "abstention": [
+          0.5447916666666667,
+          0.6166666666666667
+        ],
+        "coverage": [
+          0.3833333333333333,
+          0.4583333333333333
+        ],
+        "precision": [
+          0.950373427672956,
+          0.9624380028656454
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.65,
+          "coverage": 0.35,
+          "precision": 0.9642857142857143,
+          "seed": 821
+        },
+        {
+          "abstention": 0.5666666666666667,
+          "coverage": 0.43333333333333335,
+          "precision": 0.9807692307692307,
+          "seed": 822
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9553072625698324,
+          "seed": 823
+        },
+        {
+          "abstention": 0.4520833333333333,
+          "coverage": 0.5479166666666667,
+          "precision": 0.9619771863117871,
+          "seed": 824
+        },
+        {
+          "abstention": 0.5416666666666667,
+          "coverage": 0.4583333333333333,
+          "precision": 0.9636363636363636,
+          "seed": 825
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9298245614035088,
+          "seed": 826
+        },
+        {
+          "abstention": 0.42708333333333337,
+          "coverage": 0.5729166666666666,
+          "precision": 0.9890909090909091,
+          "seed": 827
+        },
+        {
+          "abstention": 0.6041666666666667,
+          "coverage": 0.3958333333333333,
+          "precision": 0.9473684210526315,
+          "seed": 828
+        },
+        {
+          "abstention": 0.5604166666666667,
+          "coverage": 0.4395833333333333,
+          "precision": 0.9620853080568721,
+          "seed": 829
+        },
+        {
+          "abstention": 0.5708333333333333,
+          "coverage": 0.42916666666666664,
+          "precision": 0.9563106796116505,
+          "seed": 830
+        },
+        {
+          "abstention": 0.6,
+          "coverage": 0.4,
+          "precision": 0.9479166666666666,
+          "seed": 831
+        },
+        {
+          "abstention": 0.60625,
+          "coverage": 0.39375,
+          "precision": 0.9576719576719577,
+          "seed": 832
+        },
+        {
+          "abstention": 0.51875,
+          "coverage": 0.48125,
+          "precision": 0.9913419913419913,
+          "seed": 833
+        },
+        {
+          "abstention": 0.525,
+          "coverage": 0.475,
+          "precision": 0.9605263157894737,
+          "seed": 834
+        },
+        {
+          "abstention": 0.53125,
+          "coverage": 0.46875,
+          "precision": 0.9466666666666667,
+          "seed": 835
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9532163742690059,
+          "seed": 836
+        },
+        {
+          "abstention": 0.5583333333333333,
+          "coverage": 0.44166666666666665,
+          "precision": 0.9528301886792453,
+          "seed": 837
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9273743016759777,
+          "seed": 838
+        },
+        {
+          "abstention": 0.5520833333333333,
+          "coverage": 0.4479166666666667,
+          "precision": 0.9627906976744186,
+          "seed": 839
+        },
+        {
+          "abstention": 0.6458333333333333,
+          "coverage": 0.3541666666666667,
+          "precision": 0.9411764705882353,
+          "seed": 840
+        }
+      ],
+      "selected": 4103,
+      "trusted_epsilon_coverage": 0.46965634901291736,
+      "unavailable": 1920,
+      "undefined_precision_runs": 282
+    },
+    "divergence-horizon-q0.25-h2": {
+      "abstention": 0.9202083333333333,
+      "accepted_actions": {
+        "BALANCED": 59,
+        "EW_GREEN": 52,
+        "NS_GREEN": 655
+      },
+      "coverage": 0.07979166666666666,
+      "eligible": 9600,
+      "false_negative_rate": 0.8634076204169662,
+      "false_positive_rate": 0.0014727540500736377,
+      "fp": 6,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9921671018276762,
+      "seed_bootstrap": {
+        "abstention": [
+          0.9145833333333333,
+          0.925
+        ],
+        "coverage": [
+          0.075,
+          0.08541666666666667
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.93125,
+          "coverage": 0.06875,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.9104166666666667,
+          "coverage": 0.08958333333333333,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.925,
+          "coverage": 0.075,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 0.9512195121951219,
+          "seed": 824
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 0.9459459459459459,
+          "seed": 826
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 827
+        },
+        {
+          "abstention": 0.925,
+          "coverage": 0.075,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.9166666666666666,
+          "coverage": 0.08333333333333333,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.9104166666666667,
+          "coverage": 0.08958333333333333,
+          "precision": 0.9534883720930233,
+          "seed": 830
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.9291666666666667,
+          "coverage": 0.07083333333333333,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.925,
+          "coverage": 0.075,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 766,
+      "trusted_epsilon_coverage": 0.577023498694517,
+      "unavailable": 1920,
+      "undefined_precision_runs": 984
+    },
+    "divergence-horizon-q0.25-h20": {
+      "abstention": 0.9077083333333333,
+      "accepted_actions": {
+        "BALANCED": 143,
+        "EW_GREEN": 71,
+        "NS_GREEN": 672
+      },
+      "coverage": 0.09229166666666666,
+      "eligible": 9600,
+      "false_negative_rate": 0.8423795830337887,
+      "false_positive_rate": 0.0022091310751104565,
+      "fp": 9,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.989841986455982,
+      "seed_bootstrap": {
+        "abstention": [
+          0.9041666666666667,
+          0.91875
+        ],
+        "coverage": [
+          0.08125,
+          0.09791666666666667
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8895833333333334,
+          "coverage": 0.11041666666666666,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.9166666666666666,
+          "coverage": 0.08333333333333333,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8541666666666666,
+          "coverage": 0.14583333333333334,
+          "precision": 0.9428571428571428,
+          "seed": 824
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 0.9459459459459459,
+          "seed": 826
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 0.9841269841269841,
+          "seed": 827
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 0.9545454545454546,
+          "seed": 830
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.9020833333333333,
+          "coverage": 0.09791666666666667,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 886,
+      "trusted_epsilon_coverage": 0.6106094808126411,
+      "unavailable": 1920,
+      "undefined_precision_runs": 924
+    },
+    "divergence-horizon-q0.25-h6": {
+      "abstention": 0.9079166666666667,
+      "accepted_actions": {
+        "BALANCED": 143,
+        "EW_GREEN": 71,
+        "NS_GREEN": 670
+      },
+      "coverage": 0.09208333333333334,
+      "eligible": 9600,
+      "false_negative_rate": 0.8427390366642703,
+      "false_positive_rate": 0.0022091310751104565,
+      "fp": 9,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9898190045248869,
+      "seed_bootstrap": {
+        "abstention": [
+          0.9041666666666667,
+          0.9197916666666667
+        ],
+        "coverage": [
+          0.08020833333333333,
+          0.09791666666666667
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8895833333333334,
+          "coverage": 0.11041666666666666,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8541666666666666,
+          "coverage": 0.14583333333333334,
+          "precision": 0.9428571428571428,
+          "seed": 824
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 0.9459459459459459,
+          "seed": 826
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 0.9841269841269841,
+          "seed": 827
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 0.9545454545454546,
+          "seed": 830
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.9020833333333333,
+          "coverage": 0.09791666666666667,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 884,
+      "trusted_epsilon_coverage": 0.6097285067873304,
+      "unavailable": 1920,
+      "undefined_precision_runs": 926
+    },
+    "divergence-horizon-q0.5-h2": {
+      "abstention": 0.8753124999999999,
+      "accepted_actions": {
+        "BALANCED": 81,
+        "EW_GREEN": 148,
+        "NS_GREEN": 968
+      },
+      "coverage": 0.1246875,
+      "eligible": 9600,
+      "false_negative_rate": 0.7859453630481668,
+      "false_positive_rate": 0.0014727540500736377,
+      "fp": 6,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9949874686716792,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8656250000000001,
+          0.8822916666666667
+        ],
+        "coverage": [
+          0.11770833333333333,
+          0.134375
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.9,
+          "coverage": 0.1,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.8916666666666666,
+          "coverage": 0.10833333333333334,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 0.9701492537313433,
+          "seed": 824
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8833333333333333,
+          "coverage": 0.11666666666666667,
+          "precision": 0.9642857142857143,
+          "seed": 826
+        },
+        {
+          "abstention": 0.8395833333333333,
+          "coverage": 0.16041666666666668,
+          "precision": 1.0,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8875,
+          "coverage": 0.1125,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.875,
+          "coverage": 0.125,
+          "precision": 0.9666666666666667,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8708333333333333,
+          "coverage": 0.12916666666666668,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.8583333333333334,
+          "coverage": 0.14166666666666666,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1197,
+      "trusted_epsilon_coverage": 0.5213032581453634,
+      "unavailable": 1920,
+      "undefined_precision_runs": 896
+    },
+    "divergence-horizon-q0.5-h20": {
+      "abstention": 0.8240625,
+      "accepted_actions": {
+        "BALANCED": 348,
+        "EW_GREEN": 192,
+        "NS_GREEN": 1149
+      },
+      "coverage": 0.1759375,
+      "eligible": 9600,
+      "false_negative_rate": 0.701294033069734,
+      "false_positive_rate": 0.0066273932253313695,
+      "fp": 27,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.375,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9840142095914742,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8083333333333333,
+          0.846875
+        ],
+        "coverage": [
+          0.153125,
+          0.19166666666666665
+        ],
+        "precision": [
+          0.9696900114810563,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 0.9692307692307692,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8,
+          "coverage": 0.2,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 0.9701492537313433,
+          "seed": 823
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9658119658119658,
+          "seed": 824
+        },
+        {
+          "abstention": 0.825,
+          "coverage": 0.175,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 0.96875,
+          "seed": 826
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9920634920634921,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8208333333333333,
+          "coverage": 0.17916666666666667,
+          "precision": 0.9534883720930233,
+          "seed": 828
+        },
+        {
+          "abstention": 0.80625,
+          "coverage": 0.19375,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.8458333333333333,
+          "coverage": 0.15416666666666667,
+          "precision": 0.972972972972973,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 0.9692307692307692,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8479166666666667,
+          "coverage": 0.15208333333333332,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.79375,
+          "coverage": 0.20625,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.83125,
+          "coverage": 0.16875,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.8104166666666667,
+          "coverage": 0.18958333333333333,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.8458333333333333,
+          "coverage": 0.15416666666666667,
+          "precision": 0.972972972972973,
+          "seed": 836
+        },
+        {
+          "abstention": 0.81875,
+          "coverage": 0.18125,
+          "precision": 0.9770114942528736,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8229166666666666,
+          "coverage": 0.17708333333333334,
+          "precision": 0.9529411764705882,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8020833333333334,
+          "coverage": 0.19791666666666666,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1689,
+      "trusted_epsilon_coverage": 0.5654233274126702,
+      "unavailable": 1920,
+      "undefined_precision_runs": 676
+    },
+    "divergence-horizon-q0.5-h6": {
+      "abstention": 0.83375,
+      "accepted_actions": {
+        "BALANCED": 270,
+        "EW_GREEN": 188,
+        "NS_GREEN": 1138
+      },
+      "coverage": 0.16625,
+      "eligible": 9600,
+      "false_negative_rate": 0.7172897196261683,
+      "false_positive_rate": 0.005645557191948944,
+      "fp": 23,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.375,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9855889724310777,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8229166666666666,
+          0.85625
+        ],
+        "coverage": [
+          0.14166666666666666,
+          0.17708333333333334
+        ],
+        "precision": [
+          0.9708614864864865,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 0.9682539682539683,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8229166666666666,
+          "coverage": 0.17708333333333334,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.7770833333333333,
+          "coverage": 0.22291666666666668,
+          "precision": 0.9626168224299065,
+          "seed": 824
+        },
+        {
+          "abstention": 0.8375,
+          "coverage": 0.1625,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 0.96875,
+          "seed": 826
+        },
+        {
+          "abstention": 0.7479166666666667,
+          "coverage": 0.2520833333333333,
+          "precision": 0.9917355371900827,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8270833333333334,
+          "coverage": 0.17291666666666666,
+          "precision": 0.9759036144578314,
+          "seed": 828
+        },
+        {
+          "abstention": 0.8166666666666667,
+          "coverage": 0.18333333333333332,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.8458333333333333,
+          "coverage": 0.15416666666666667,
+          "precision": 0.972972972972973,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 0.9692307692307692,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8520833333333333,
+          "coverage": 0.14791666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8166666666666667,
+          "coverage": 0.18333333333333332,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.83125,
+          "coverage": 0.16875,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.825,
+          "coverage": 0.175,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.8770833333333333,
+          "coverage": 0.12291666666666666,
+          "precision": 0.9661016949152542,
+          "seed": 836
+        },
+        {
+          "abstention": 0.8291666666666666,
+          "coverage": 0.17083333333333334,
+          "precision": 0.975609756097561,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8229166666666666,
+          "coverage": 0.17708333333333334,
+          "precision": 0.9529411764705882,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8166666666666667,
+          "coverage": 0.18333333333333332,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1596,
+      "trusted_epsilon_coverage": 0.5538847117794486,
+      "unavailable": 1920,
+      "undefined_precision_runs": 740
+    },
+    "divergence-horizon-q0.75-h2": {
+      "abstention": 0.8753124999999999,
+      "accepted_actions": {
+        "BALANCED": 81,
+        "EW_GREEN": 148,
+        "NS_GREEN": 968
+      },
+      "coverage": 0.1246875,
+      "eligible": 9600,
+      "false_negative_rate": 0.7859453630481668,
+      "false_positive_rate": 0.0014727540500736377,
+      "fp": 6,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9949874686716792,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8656250000000001,
+          0.8822916666666667
+        ],
+        "coverage": [
+          0.11770833333333333,
+          0.134375
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.9,
+          "coverage": 0.1,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.8916666666666666,
+          "coverage": 0.10833333333333334,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 0.9701492537313433,
+          "seed": 824
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8833333333333333,
+          "coverage": 0.11666666666666667,
+          "precision": 0.9642857142857143,
+          "seed": 826
+        },
+        {
+          "abstention": 0.8395833333333333,
+          "coverage": 0.16041666666666668,
+          "precision": 1.0,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8875,
+          "coverage": 0.1125,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.875,
+          "coverage": 0.125,
+          "precision": 0.9666666666666667,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8708333333333333,
+          "coverage": 0.12916666666666668,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.8583333333333334,
+          "coverage": 0.14166666666666666,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1197,
+      "trusted_epsilon_coverage": 0.5213032581453634,
+      "unavailable": 1920,
+      "undefined_precision_runs": 896
+    },
+    "divergence-horizon-q0.75-h20": {
+      "abstention": 0.6816666666666666,
+      "accepted_actions": {
+        "BALANCED": 769,
+        "EW_GREEN": 311,
+        "NS_GREEN": 1976
+      },
+      "coverage": 0.31833333333333336,
+      "eligible": 9600,
+      "false_negative_rate": 0.4572250179726815,
+      "false_positive_rate": 0.008836524300441826,
+      "fp": 36,
+      "median_run_metrics": {
+        "abstention": 0.75,
+        "choice_value_loss": 0.5,
+        "coverage": 0.25,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.0,
+        "precision": 1.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9882198952879581,
+      "seed_bootstrap": {
+        "abstention": [
+          0.65,
+          0.7270833333333333
+        ],
+        "coverage": [
+          0.2729166666666667,
+          0.35
+        ],
+        "precision": [
+          0.9817911557041992,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.74375,
+          "coverage": 0.25625,
+          "precision": 0.983739837398374,
+          "seed": 821
+        },
+        {
+          "abstention": 0.6645833333333333,
+          "coverage": 0.33541666666666664,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.7458333333333333,
+          "coverage": 0.25416666666666665,
+          "precision": 0.9672131147540983,
+          "seed": 823
+        },
+        {
+          "abstention": 0.56875,
+          "coverage": 0.43125,
+          "precision": 0.9806763285024155,
+          "seed": 824
+        },
+        {
+          "abstention": 0.6604166666666667,
+          "coverage": 0.33958333333333335,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.75,
+          "coverage": 0.25,
+          "precision": 0.9666666666666667,
+          "seed": 826
+        },
+        {
+          "abstention": 0.5479166666666666,
+          "coverage": 0.45208333333333334,
+          "precision": 0.9953917050691244,
+          "seed": 827
+        },
+        {
+          "abstention": 0.7166666666666667,
+          "coverage": 0.2833333333333333,
+          "precision": 0.9705882352941176,
+          "seed": 828
+        },
+        {
+          "abstention": 0.6791666666666667,
+          "coverage": 0.32083333333333336,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.6854166666666667,
+          "coverage": 0.3145833333333333,
+          "precision": 0.9801324503311258,
+          "seed": 830
+        },
+        {
+          "abstention": 0.70625,
+          "coverage": 0.29375,
+          "precision": 0.9858156028368794,
+          "seed": 831
+        },
+        {
+          "abstention": 0.7145833333333333,
+          "coverage": 0.28541666666666665,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.6333333333333333,
+          "coverage": 0.36666666666666664,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.6416666666666666,
+          "coverage": 0.35833333333333334,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.6416666666666666,
+          "coverage": 0.35833333333333334,
+          "precision": 0.9883720930232558,
+          "seed": 835
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9829059829059829,
+          "seed": 836
+        },
+        {
+          "abstention": 0.65625,
+          "coverage": 0.34375,
+          "precision": 0.9878787878787879,
+          "seed": 837
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9682539682539683,
+          "seed": 838
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.7395833333333333,
+          "coverage": 0.2604166666666667,
+          "precision": 0.984,
+          "seed": 840
+        }
+      ],
+      "selected": 3056,
+      "trusted_epsilon_coverage": 0.5179973821989529,
+      "unavailable": 1920,
+      "undefined_precision_runs": 436
+    },
+    "divergence-horizon-q0.75-h6": {
+      "abstention": 0.7373958333333333,
+      "accepted_actions": {
+        "BALANCED": 340,
+        "EW_GREEN": 296,
+        "NS_GREEN": 1885
+      },
+      "coverage": 0.2626041666666667,
+      "eligible": 9600,
+      "false_negative_rate": 0.5510424155283968,
+      "false_positive_rate": 0.005645557191948944,
+      "fp": 23,
+      "median_run_metrics": {
+        "abstention": 0.875,
+        "choice_value_loss": 0.5,
+        "coverage": 0.125,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.25,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.125,
+        "precision": 0.5,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9908766362554542,
+      "seed_bootstrap": {
+        "abstention": [
+          0.7239583333333333,
+          0.7583333333333333
+        ],
+        "coverage": [
+          0.24166666666666667,
+          0.2760416666666667
+        ],
+        "precision": [
+          0.9827586206896551,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.7875,
+          "coverage": 0.2125,
+          "precision": 0.9803921568627451,
+          "seed": 821
+        },
+        {
+          "abstention": 0.725,
+          "coverage": 0.275,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.7875,
+          "coverage": 0.2125,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.65,
+          "coverage": 0.35,
+          "precision": 0.9761904761904762,
+          "seed": 824
+        },
+        {
+          "abstention": 0.73125,
+          "coverage": 0.26875,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.7604166666666666,
+          "coverage": 0.23958333333333334,
+          "precision": 0.9826086956521739,
+          "seed": 826
+        },
+        {
+          "abstention": 0.6291666666666667,
+          "coverage": 0.37083333333333335,
+          "precision": 0.9943820224719101,
+          "seed": 827
+        },
+        {
+          "abstention": 0.7583333333333333,
+          "coverage": 0.24166666666666667,
+          "precision": 0.9827586206896551,
+          "seed": 828
+        },
+        {
+          "abstention": 0.7270833333333333,
+          "coverage": 0.27291666666666664,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.7458333333333333,
+          "coverage": 0.25416666666666665,
+          "precision": 0.9836065573770492,
+          "seed": 830
+        },
+        {
+          "abstention": 0.7583333333333333,
+          "coverage": 0.24166666666666667,
+          "precision": 0.9827586206896551,
+          "seed": 831
+        },
+        {
+          "abstention": 0.7520833333333333,
+          "coverage": 0.24791666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.70625,
+          "coverage": 0.29375,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.7208333333333333,
+          "coverage": 0.2791666666666667,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.7229166666666667,
+          "coverage": 0.27708333333333335,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.8041666666666667,
+          "coverage": 0.19583333333333333,
+          "precision": 0.9787234042553191,
+          "seed": 836
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9841269841269841,
+          "seed": 837
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9658119658119658,
+          "seed": 838
+        },
+        {
+          "abstention": 0.7166666666666667,
+          "coverage": 0.2833333333333333,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.7708333333333334,
+          "coverage": 0.22916666666666666,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 2521,
+      "trusted_epsilon_coverage": 0.5041650138833796,
+      "unavailable": 1920,
+      "undefined_precision_runs": 594
+    },
+    "divergence-horizon-q1-h2": {
+      "abstention": 0.8753124999999999,
+      "accepted_actions": {
+        "BALANCED": 81,
+        "EW_GREEN": 148,
+        "NS_GREEN": 968
+      },
+      "coverage": 0.1246875,
+      "eligible": 9600,
+      "false_negative_rate": 0.7859453630481668,
+      "false_positive_rate": 0.0014727540500736377,
+      "fp": 6,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9949874686716792,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8656250000000001,
+          0.8822916666666667
+        ],
+        "coverage": [
+          0.11666666666666667,
+          0.134375
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.9,
+          "coverage": 0.1,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.8916666666666666,
+          "coverage": 0.10833333333333334,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 0.9701492537313433,
+          "seed": 824
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8833333333333333,
+          "coverage": 0.11666666666666667,
+          "precision": 0.9642857142857143,
+          "seed": 826
+        },
+        {
+          "abstention": 0.8395833333333333,
+          "coverage": 0.16041666666666668,
+          "precision": 1.0,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8875,
+          "coverage": 0.1125,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.875,
+          "coverage": 0.125,
+          "precision": 0.9666666666666667,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8708333333333333,
+          "coverage": 0.12916666666666668,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.8729166666666667,
+          "coverage": 0.12708333333333333,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.8583333333333334,
+          "coverage": 0.14166666666666666,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.88125,
+          "coverage": 0.11875,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1197,
+      "trusted_epsilon_coverage": 0.5213032581453634,
+      "unavailable": 1920,
+      "undefined_precision_runs": 896
+    },
+    "divergence-horizon-q1-h20": {
+      "abstention": 0.5726041666666667,
+      "accepted_actions": {
+        "BALANCED": 990,
+        "EW_GREEN": 361,
+        "NS_GREEN": 2752
+      },
+      "coverage": 0.4273958333333333,
+      "eligible": 9600,
+      "false_negative_rate": 0.2902588066139468,
+      "false_positive_rate": 0.041237113402061855,
+      "fp": 168,
+      "median_run_metrics": {
+        "abstention": 0.625,
+        "choice_value_loss": 0.5,
+        "coverage": 0.375,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.0,
+        "precision": 1.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.959054350475262,
+      "seed_bootstrap": {
+        "abstention": [
+          0.5416666666666667,
+          0.6166666666666667
+        ],
+        "coverage": [
+          0.3833333333333333,
+          0.453125
+        ],
+        "precision": [
+          0.950373427672956,
+          0.9627906976744186
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.65,
+          "coverage": 0.35,
+          "precision": 0.9642857142857143,
+          "seed": 821
+        },
+        {
+          "abstention": 0.5666666666666667,
+          "coverage": 0.43333333333333335,
+          "precision": 0.9807692307692307,
+          "seed": 822
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9553072625698324,
+          "seed": 823
+        },
+        {
+          "abstention": 0.4520833333333333,
+          "coverage": 0.5479166666666667,
+          "precision": 0.9619771863117871,
+          "seed": 824
+        },
+        {
+          "abstention": 0.5416666666666667,
+          "coverage": 0.4583333333333333,
+          "precision": 0.9636363636363636,
+          "seed": 825
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9298245614035088,
+          "seed": 826
+        },
+        {
+          "abstention": 0.42708333333333337,
+          "coverage": 0.5729166666666666,
+          "precision": 0.9890909090909091,
+          "seed": 827
+        },
+        {
+          "abstention": 0.6041666666666667,
+          "coverage": 0.3958333333333333,
+          "precision": 0.9473684210526315,
+          "seed": 828
+        },
+        {
+          "abstention": 0.5604166666666667,
+          "coverage": 0.4395833333333333,
+          "precision": 0.9620853080568721,
+          "seed": 829
+        },
+        {
+          "abstention": 0.5708333333333333,
+          "coverage": 0.42916666666666664,
+          "precision": 0.9563106796116505,
+          "seed": 830
+        },
+        {
+          "abstention": 0.6,
+          "coverage": 0.4,
+          "precision": 0.9479166666666666,
+          "seed": 831
+        },
+        {
+          "abstention": 0.60625,
+          "coverage": 0.39375,
+          "precision": 0.9576719576719577,
+          "seed": 832
+        },
+        {
+          "abstention": 0.51875,
+          "coverage": 0.48125,
+          "precision": 0.9913419913419913,
+          "seed": 833
+        },
+        {
+          "abstention": 0.525,
+          "coverage": 0.475,
+          "precision": 0.9605263157894737,
+          "seed": 834
+        },
+        {
+          "abstention": 0.53125,
+          "coverage": 0.46875,
+          "precision": 0.9466666666666667,
+          "seed": 835
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9532163742690059,
+          "seed": 836
+        },
+        {
+          "abstention": 0.5583333333333333,
+          "coverage": 0.44166666666666665,
+          "precision": 0.9528301886792453,
+          "seed": 837
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9273743016759777,
+          "seed": 838
+        },
+        {
+          "abstention": 0.5520833333333333,
+          "coverage": 0.4479166666666667,
+          "precision": 0.9627906976744186,
+          "seed": 839
+        },
+        {
+          "abstention": 0.6458333333333333,
+          "coverage": 0.3541666666666667,
+          "precision": 0.9411764705882353,
+          "seed": 840
+        }
+      ],
+      "selected": 4103,
+      "trusted_epsilon_coverage": 0.46965634901291736,
+      "unavailable": 1920,
+      "undefined_precision_runs": 282
+    },
+    "divergence-horizon-q1-h6": {
+      "abstention": 0.7373958333333333,
+      "accepted_actions": {
+        "BALANCED": 340,
+        "EW_GREEN": 296,
+        "NS_GREEN": 1885
+      },
+      "coverage": 0.2626041666666667,
+      "eligible": 9600,
+      "false_negative_rate": 0.5510424155283968,
+      "false_positive_rate": 0.005645557191948944,
+      "fp": 23,
+      "median_run_metrics": {
+        "abstention": 0.875,
+        "choice_value_loss": 0.5,
+        "coverage": 0.125,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.25,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.125,
+        "precision": 0.5,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9908766362554542,
+      "seed_bootstrap": {
+        "abstention": [
+          0.7239583333333333,
+          0.7583333333333333
+        ],
+        "coverage": [
+          0.24166666666666667,
+          0.2760416666666667
+        ],
+        "precision": [
+          0.9827586206896551,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.7875,
+          "coverage": 0.2125,
+          "precision": 0.9803921568627451,
+          "seed": 821
+        },
+        {
+          "abstention": 0.725,
+          "coverage": 0.275,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.7875,
+          "coverage": 0.2125,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.65,
+          "coverage": 0.35,
+          "precision": 0.9761904761904762,
+          "seed": 824
+        },
+        {
+          "abstention": 0.73125,
+          "coverage": 0.26875,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.7604166666666666,
+          "coverage": 0.23958333333333334,
+          "precision": 0.9826086956521739,
+          "seed": 826
+        },
+        {
+          "abstention": 0.6291666666666667,
+          "coverage": 0.37083333333333335,
+          "precision": 0.9943820224719101,
+          "seed": 827
+        },
+        {
+          "abstention": 0.7583333333333333,
+          "coverage": 0.24166666666666667,
+          "precision": 0.9827586206896551,
+          "seed": 828
+        },
+        {
+          "abstention": 0.7270833333333333,
+          "coverage": 0.27291666666666664,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.7458333333333333,
+          "coverage": 0.25416666666666665,
+          "precision": 0.9836065573770492,
+          "seed": 830
+        },
+        {
+          "abstention": 0.7583333333333333,
+          "coverage": 0.24166666666666667,
+          "precision": 0.9827586206896551,
+          "seed": 831
+        },
+        {
+          "abstention": 0.7520833333333333,
+          "coverage": 0.24791666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.70625,
+          "coverage": 0.29375,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.7208333333333333,
+          "coverage": 0.2791666666666667,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.7229166666666667,
+          "coverage": 0.27708333333333335,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.8041666666666667,
+          "coverage": 0.19583333333333333,
+          "precision": 0.9787234042553191,
+          "seed": 836
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9841269841269841,
+          "seed": 837
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9658119658119658,
+          "seed": 838
+        },
+        {
+          "abstention": 0.7166666666666667,
+          "coverage": 0.2833333333333333,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.7708333333333334,
+          "coverage": 0.22916666666666666,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 2521,
+      "trusted_epsilon_coverage": 0.5041650138833796,
+      "unavailable": 1920,
+      "undefined_precision_runs": 594
+    },
+    "divergence-q0.25": {
+      "abstention": 0.9077083333333333,
+      "accepted_actions": {
+        "BALANCED": 143,
+        "EW_GREEN": 71,
+        "NS_GREEN": 672
+      },
+      "coverage": 0.09229166666666666,
+      "eligible": 9600,
+      "false_negative_rate": 0.8423795830337887,
+      "false_positive_rate": 0.0022091310751104565,
+      "fp": 9,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.5,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.989841986455982,
+      "seed_bootstrap": {
+        "abstention": [
+          0.9041666666666667,
+          0.91875
+        ],
+        "coverage": [
+          0.08125,
+          0.09583333333333333
+        ],
+        "precision": [
+          1.0,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8895833333333334,
+          "coverage": 0.11041666666666666,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.9166666666666666,
+          "coverage": 0.08333333333333333,
+          "precision": 1.0,
+          "seed": 823
+        },
+        {
+          "abstention": 0.8541666666666666,
+          "coverage": 0.14583333333333334,
+          "precision": 0.9428571428571428,
+          "seed": 824
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.9229166666666666,
+          "coverage": 0.07708333333333334,
+          "precision": 0.9459459459459459,
+          "seed": 826
+        },
+        {
+          "abstention": 0.86875,
+          "coverage": 0.13125,
+          "precision": 0.9841269841269841,
+          "seed": 827
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 828
+        },
+        {
+          "abstention": 0.90625,
+          "coverage": 0.09375,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 0.9545454545454546,
+          "seed": 830
+        },
+        {
+          "abstention": 0.9208333333333334,
+          "coverage": 0.07916666666666666,
+          "precision": 1.0,
+          "seed": 831
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.9020833333333333,
+          "coverage": 0.09791666666666667,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.9145833333333333,
+          "coverage": 0.08541666666666667,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.9333333333333333,
+          "coverage": 0.06666666666666667,
+          "precision": 1.0,
+          "seed": 836
+        },
+        {
+          "abstention": 0.8958333333333334,
+          "coverage": 0.10416666666666667,
+          "precision": 1.0,
+          "seed": 837
+        },
+        {
+          "abstention": 0.9083333333333333,
+          "coverage": 0.09166666666666666,
+          "precision": 1.0,
+          "seed": 838
+        },
+        {
+          "abstention": 0.9125,
+          "coverage": 0.0875,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.91875,
+          "coverage": 0.08125,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 886,
+      "trusted_epsilon_coverage": 0.6106094808126411,
+      "unavailable": 1920,
+      "undefined_precision_runs": 924
+    },
+    "divergence-q0.5": {
+      "abstention": 0.8240625,
+      "accepted_actions": {
+        "BALANCED": 348,
+        "EW_GREEN": 192,
+        "NS_GREEN": 1149
+      },
+      "coverage": 0.1759375,
+      "eligible": 9600,
+      "false_negative_rate": 0.701294033069734,
+      "false_positive_rate": 0.0066273932253313695,
+      "fp": 27,
+      "median_run_metrics": {
+        "abstention": 1.0,
+        "choice_value_loss": 0.5,
+        "coverage": 0.0,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 1.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.375,
+        "precision": 0.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9840142095914742,
+      "seed_bootstrap": {
+        "abstention": [
+          0.8083333333333333,
+          0.846875
+        ],
+        "coverage": [
+          0.153125,
+          0.19166666666666665
+        ],
+        "precision": [
+          0.9696900114810563,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 0.9692307692307692,
+          "seed": 821
+        },
+        {
+          "abstention": 0.8,
+          "coverage": 0.2,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 0.9701492537313433,
+          "seed": 823
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9658119658119658,
+          "seed": 824
+        },
+        {
+          "abstention": 0.825,
+          "coverage": 0.175,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.8666666666666667,
+          "coverage": 0.13333333333333333,
+          "precision": 0.96875,
+          "seed": 826
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9920634920634921,
+          "seed": 827
+        },
+        {
+          "abstention": 0.8208333333333333,
+          "coverage": 0.17916666666666667,
+          "precision": 0.9534883720930233,
+          "seed": 828
+        },
+        {
+          "abstention": 0.80625,
+          "coverage": 0.19375,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.8458333333333333,
+          "coverage": 0.15416666666666667,
+          "precision": 0.972972972972973,
+          "seed": 830
+        },
+        {
+          "abstention": 0.8645833333333334,
+          "coverage": 0.13541666666666666,
+          "precision": 0.9692307692307692,
+          "seed": 831
+        },
+        {
+          "abstention": 0.8479166666666667,
+          "coverage": 0.15208333333333332,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.79375,
+          "coverage": 0.20625,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.83125,
+          "coverage": 0.16875,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.8104166666666667,
+          "coverage": 0.18958333333333333,
+          "precision": 1.0,
+          "seed": 835
+        },
+        {
+          "abstention": 0.8458333333333333,
+          "coverage": 0.15416666666666667,
+          "precision": 0.972972972972973,
+          "seed": 836
+        },
+        {
+          "abstention": 0.81875,
+          "coverage": 0.18125,
+          "precision": 0.9770114942528736,
+          "seed": 837
+        },
+        {
+          "abstention": 0.8229166666666666,
+          "coverage": 0.17708333333333334,
+          "precision": 0.9529411764705882,
+          "seed": 838
+        },
+        {
+          "abstention": 0.8020833333333334,
+          "coverage": 0.19791666666666666,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.8604166666666666,
+          "coverage": 0.13958333333333334,
+          "precision": 1.0,
+          "seed": 840
+        }
+      ],
+      "selected": 1689,
+      "trusted_epsilon_coverage": 0.5654233274126702,
+      "unavailable": 1920,
+      "undefined_precision_runs": 676
+    },
+    "divergence-q0.75": {
+      "abstention": 0.6816666666666666,
+      "accepted_actions": {
+        "BALANCED": 769,
+        "EW_GREEN": 311,
+        "NS_GREEN": 1976
+      },
+      "coverage": 0.31833333333333336,
+      "eligible": 9600,
+      "false_negative_rate": 0.4572250179726815,
+      "false_positive_rate": 0.008836524300441826,
+      "fp": 36,
+      "median_run_metrics": {
+        "abstention": 0.75,
+        "choice_value_loss": 0.5,
+        "coverage": 0.25,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.0,
+        "precision": 1.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.9882198952879581,
+      "seed_bootstrap": {
+        "abstention": [
+          0.65,
+          0.7375
+        ],
+        "coverage": [
+          0.2729166666666667,
+          0.35
+        ],
+        "precision": [
+          0.9817911557041992,
+          1.0
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.74375,
+          "coverage": 0.25625,
+          "precision": 0.983739837398374,
+          "seed": 821
+        },
+        {
+          "abstention": 0.6645833333333333,
+          "coverage": 0.33541666666666664,
+          "precision": 1.0,
+          "seed": 822
+        },
+        {
+          "abstention": 0.7458333333333333,
+          "coverage": 0.25416666666666665,
+          "precision": 0.9672131147540983,
+          "seed": 823
+        },
+        {
+          "abstention": 0.56875,
+          "coverage": 0.43125,
+          "precision": 0.9806763285024155,
+          "seed": 824
+        },
+        {
+          "abstention": 0.6604166666666667,
+          "coverage": 0.33958333333333335,
+          "precision": 1.0,
+          "seed": 825
+        },
+        {
+          "abstention": 0.75,
+          "coverage": 0.25,
+          "precision": 0.9666666666666667,
+          "seed": 826
+        },
+        {
+          "abstention": 0.5479166666666666,
+          "coverage": 0.45208333333333334,
+          "precision": 0.9953917050691244,
+          "seed": 827
+        },
+        {
+          "abstention": 0.7166666666666667,
+          "coverage": 0.2833333333333333,
+          "precision": 0.9705882352941176,
+          "seed": 828
+        },
+        {
+          "abstention": 0.6791666666666667,
+          "coverage": 0.32083333333333336,
+          "precision": 1.0,
+          "seed": 829
+        },
+        {
+          "abstention": 0.6854166666666667,
+          "coverage": 0.3145833333333333,
+          "precision": 0.9801324503311258,
+          "seed": 830
+        },
+        {
+          "abstention": 0.70625,
+          "coverage": 0.29375,
+          "precision": 0.9858156028368794,
+          "seed": 831
+        },
+        {
+          "abstention": 0.7145833333333333,
+          "coverage": 0.28541666666666665,
+          "precision": 1.0,
+          "seed": 832
+        },
+        {
+          "abstention": 0.6333333333333333,
+          "coverage": 0.36666666666666664,
+          "precision": 1.0,
+          "seed": 833
+        },
+        {
+          "abstention": 0.6416666666666666,
+          "coverage": 0.35833333333333334,
+          "precision": 1.0,
+          "seed": 834
+        },
+        {
+          "abstention": 0.6416666666666666,
+          "coverage": 0.35833333333333334,
+          "precision": 0.9883720930232558,
+          "seed": 835
+        },
+        {
+          "abstention": 0.75625,
+          "coverage": 0.24375,
+          "precision": 0.9829059829059829,
+          "seed": 836
+        },
+        {
+          "abstention": 0.65625,
+          "coverage": 0.34375,
+          "precision": 0.9878787878787879,
+          "seed": 837
+        },
+        {
+          "abstention": 0.7375,
+          "coverage": 0.2625,
+          "precision": 0.9682539682539683,
+          "seed": 838
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 1.0,
+          "seed": 839
+        },
+        {
+          "abstention": 0.7395833333333333,
+          "coverage": 0.2604166666666667,
+          "precision": 0.984,
+          "seed": 840
+        }
+      ],
+      "selected": 3056,
+      "trusted_epsilon_coverage": 0.5179973821989529,
+      "unavailable": 1920,
+      "undefined_precision_runs": 436
+    },
+    "divergence-q1": {
+      "abstention": 0.5726041666666667,
+      "accepted_actions": {
+        "BALANCED": 990,
+        "EW_GREEN": 361,
+        "NS_GREEN": 2752
+      },
+      "coverage": 0.4273958333333333,
+      "eligible": 9600,
+      "false_negative_rate": 0.2902588066139468,
+      "false_positive_rate": 0.041237113402061855,
+      "fp": 168,
+      "median_run_metrics": {
+        "abstention": 0.625,
+        "choice_value_loss": 0.5,
+        "coverage": 0.375,
+        "epsilon_coverage": 0.75,
+        "false_negative_rate": 0.0,
+        "false_positive_rate": 0.0,
+        "oracle_coverage": 0.625,
+        "oracle_coverage_lost": 0.0,
+        "precision": 1.0,
+        "ranking_agreement": 1.0,
+        "regret_sign_agreement": 1.0,
+        "selected_error": 0.4375
+      },
+      "precision": 0.959054350475262,
+      "seed_bootstrap": {
+        "abstention": [
+          0.546875,
+          0.6166666666666667
+        ],
+        "coverage": [
+          0.3833333333333333,
+          0.453125
+        ],
+        "precision": [
+          0.950373427672956,
+          0.9624380028656454
+        ]
+      },
+      "seed_distribution": [
+        {
+          "abstention": 0.65,
+          "coverage": 0.35,
+          "precision": 0.9642857142857143,
+          "seed": 821
+        },
+        {
+          "abstention": 0.5666666666666667,
+          "coverage": 0.43333333333333335,
+          "precision": 0.9807692307692307,
+          "seed": 822
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9553072625698324,
+          "seed": 823
+        },
+        {
+          "abstention": 0.4520833333333333,
+          "coverage": 0.5479166666666667,
+          "precision": 0.9619771863117871,
+          "seed": 824
+        },
+        {
+          "abstention": 0.5416666666666667,
+          "coverage": 0.4583333333333333,
+          "precision": 0.9636363636363636,
+          "seed": 825
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9298245614035088,
+          "seed": 826
+        },
+        {
+          "abstention": 0.42708333333333337,
+          "coverage": 0.5729166666666666,
+          "precision": 0.9890909090909091,
+          "seed": 827
+        },
+        {
+          "abstention": 0.6041666666666667,
+          "coverage": 0.3958333333333333,
+          "precision": 0.9473684210526315,
+          "seed": 828
+        },
+        {
+          "abstention": 0.5604166666666667,
+          "coverage": 0.4395833333333333,
+          "precision": 0.9620853080568721,
+          "seed": 829
+        },
+        {
+          "abstention": 0.5708333333333333,
+          "coverage": 0.42916666666666664,
+          "precision": 0.9563106796116505,
+          "seed": 830
+        },
+        {
+          "abstention": 0.6,
+          "coverage": 0.4,
+          "precision": 0.9479166666666666,
+          "seed": 831
+        },
+        {
+          "abstention": 0.60625,
+          "coverage": 0.39375,
+          "precision": 0.9576719576719577,
+          "seed": 832
+        },
+        {
+          "abstention": 0.51875,
+          "coverage": 0.48125,
+          "precision": 0.9913419913419913,
+          "seed": 833
+        },
+        {
+          "abstention": 0.525,
+          "coverage": 0.475,
+          "precision": 0.9605263157894737,
+          "seed": 834
+        },
+        {
+          "abstention": 0.53125,
+          "coverage": 0.46875,
+          "precision": 0.9466666666666667,
+          "seed": 835
+        },
+        {
+          "abstention": 0.64375,
+          "coverage": 0.35625,
+          "precision": 0.9532163742690059,
+          "seed": 836
+        },
+        {
+          "abstention": 0.5583333333333333,
+          "coverage": 0.44166666666666665,
+          "precision": 0.9528301886792453,
+          "seed": 837
+        },
+        {
+          "abstention": 0.6270833333333333,
+          "coverage": 0.3729166666666667,
+          "precision": 0.9273743016759777,
+          "seed": 838
+        },
+        {
+          "abstention": 0.5520833333333333,
+          "coverage": 0.4479166666666667,
+          "precision": 0.9627906976744186,
+          "seed": 839
+        },
+        {
+          "abstention": 0.6458333333333333,
+          "coverage": 0.3541666666666667,
+          "precision": 0.9411764705882353,
+          "seed": 840
+        }
+      ],
+      "selected": 4103,
+      "trusted_epsilon_coverage": 0.46965634901291736,
+      "unavailable": 1920,
+      "undefined_precision_runs": 282
+    }
+  },
+  "phase": "calibration",
+  "selected_rule": null,
+  "series_manifest_hash": "c5a4f22bd11dcbc80cdcab8c7f481c366a539690348704a7c930dfaa1ff4d8b1"
+}

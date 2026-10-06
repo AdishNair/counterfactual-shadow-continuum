@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "seeds": [201, 202],
+  "horizons": [2, 6],
+  "shadow_service_rates": [2, 4],
+  "duration_epochs": 20,
+  "warmup_epochs": 2,
+  "workload_profile": "incident",
+  "production_heterogeneity": true,
+  "model_incidents": false
+}

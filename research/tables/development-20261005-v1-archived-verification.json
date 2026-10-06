@@ -1,0 +1,22 @@
+{
+  "analysis_candidate_checks": 0,
+  "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+  "counts": {
+    "anchors": 9600,
+    "feature_AVAILABLE": 7680,
+    "feature_UNSUPPORTED_SEMANTICS": 1920,
+    "replayed_action_pairs": 28800,
+    "runs": 1200
+  },
+  "errors": {},
+  "expected_cells": 60,
+  "expected_runs": 1200,
+  "heldout_access_audit": "runner gating plus absence of final series; external reads not independently auditable",
+  "passed": true,
+  "phase": "development",
+  "seed_range": [
+    801,
+    820
+  ],
+  "split_overlap": false
+}

@@ -1,0 +1,9 @@
+seed,horizon_ticks,shadow_service_rate,run_path,measured_epochs,mirror_median_absolute_error,alternative_median_absolute_error,ranking_agreement,epsilon_gate_coverage
+201,2,2,results\reference-fidelity\all-action-smoke-20260928\reference-h2-rate2-seed201-7dd066543d5c,18,0.5,0.5,1.0,0.3888888888888889
+201,2,4,results\reference-fidelity\all-action-smoke-20260928\reference-h2-rate4-seed201-f8d0dbab3898,18,3.0,2.75,1.0,0.6666666666666666
+201,6,2,results\reference-fidelity\all-action-smoke-20260928\reference-h6-rate2-seed201-500ce938c6a7,18,0.8333333333333286,0.6666666666666714,0.8888888888888888,0.7222222222222222
+201,6,4,results\reference-fidelity\all-action-smoke-20260928\reference-h6-rate4-seed201-37114f1c1ed2,18,7.416666666666661,5.5,0.8888888888888888,0.7777777777777778
+202,2,2,results\reference-fidelity\all-action-smoke-20260928\reference-h2-rate2-seed202-cb796d2d211b,18,0.5,0.25,0.9444444444444444,0.8333333333333334
+202,2,4,results\reference-fidelity\all-action-smoke-20260928\reference-h2-rate4-seed202-c7288e691f4c,18,3.0,2.0,0.9444444444444444,0.7777777777777778
+202,6,2,results\reference-fidelity\all-action-smoke-20260928\reference-h6-rate2-seed202-1bcf6a7c97b4,18,0.6666666666666643,0.5833333333333428,0.8888888888888888,0.6666666666666666
+202,6,4,results\reference-fidelity\all-action-smoke-20260928\reference-h6-rate4-seed202-4f59fa72a6c4,18,6.41666666666667,5.625,0.7777777777777778,0.6666666666666666

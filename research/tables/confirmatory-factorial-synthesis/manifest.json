@@ -1,0 +1,8 @@
+{
+  "script_sha256": "b5966d7871a2494c759d4e23afe97473a81659a3640f24d16f401c070280aec0",
+  "outputs": {
+    "gate-consensus.csv": "dd07b6ee37b8d648e6fe76a65c2857f5d939d46e2d468102fd8aa31118e833ae",
+    "mirror-alternative-relationships.csv": "042cc155157a49c41edb7a7327e77e93a98fc7a4cfddf4dcac7cd337dbb5d84a",
+    "cross-holdout-synthesis.md": "573ecf9f57e6928c18b8c8c9d0140b1e7e177508c43f511b66ec69d8edf6a268"
+  }
+}

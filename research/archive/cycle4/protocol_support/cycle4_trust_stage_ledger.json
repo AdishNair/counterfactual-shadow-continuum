@@ -1,0 +1,35 @@
+{
+  "scope": "post-window/common-input authored software; no pre-actuation online availability claim",
+  "stages": [
+    {
+      "stage": "source-isolation",
+      "state": "PASS",
+      "tests": 15,
+      "review": "director approved before development"
+    },
+    {
+      "stage": "development",
+      "state": "COMPLETE_FEATURE_VALIDATION_PASS",
+      "series": "results/cycle4-trust/development-20261005-v1",
+      "source_bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+      "gate_sha256": "7d0d2d0134758421d3c017ab7bff04c60afebd003328cf6edac5660bdb39f71d",
+      "recorded_utc": "2026-10-05T13:48:26.186416+00:00"
+    },
+    {
+      "stage": "calibration",
+      "state": "COMPLETE_NO_QUALIFIED_CANDIDATE_D",
+      "series": "results/cycle4-trust/calibration-20261005-v1",
+      "analysis": "research/tables/cycle4-trust-calibration-v1/calibration-selection.json",
+      "verification": "research/tables/cycle4-trust-calibration-v1/verification.json",
+      "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+      "result": "No one of 17 frozen candidates passed every one of 60 cells; final-held-out execution is not permitted.",
+      "recorded_utc": "2026-10-05T15:00:25.4801502Z"
+    },
+    {
+      "stage": "final-held-out",
+      "state": "NOT GENERATED; forbidden because calibration selected no rule",
+      "result": "Decision D under the frozen protocol; no final held-out directory exists."
+    }
+  ],
+  "audit_limit": "Records this runner and review workflow; cannot prove arbitrary filesystem access did not occur"
+}

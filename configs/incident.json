@@ -1,0 +1,1 @@
+{"schema_version":1,"experiment_name":"incident","workload_profile":"incident","shadow_count":2,"mirror_count":1,"duration_epochs":100,"warmup_epochs":10}

@@ -1,0 +1,144 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: csc
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: csc-shadow
+  namespace: csc
+automountServiceAccountToken: false
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shadow-runtime
+  namespace: csc
+spec:
+  replicas: 2
+  selector:
+    matchLabels: {app: csc-shadow}
+  template:
+    metadata:
+      labels: {app: csc-shadow}
+    spec:
+      serviceAccountName: csc-shadow
+      automountServiceAccountToken: false
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        fsGroup: 10001
+        seccompProfile: {type: RuntimeDefault}
+      containers:
+        - name: worker
+          image: csc-prototype:0.1.0
+          imagePullPolicy: IfNotPresent
+          ports: [{containerPort: 8080}]
+          resources:
+            requests: {cpu: 100m, memory: 128Mi}
+            limits: {cpu: '1', memory: 512Mi}
+          securityContext:
+            readOnlyRootFilesystem: true
+            allowPrivilegeEscalation: false
+            capabilities: {drop: [ALL]}
+          readinessProbe:
+            httpGet: {path: /readyz, port: 8080}
+          livenessProbe:
+            httpGet: {path: /healthz, port: 8080}
+          volumeMounts:
+            - {name: scratch, mountPath: /tmp}
+      volumes:
+        - name: scratch
+          emptyDir: {sizeLimit: 64Mi}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shadow-runtime
+  namespace: csc
+spec:
+  selector: {app: csc-shadow}
+  ports: [{port: 8080, targetPort: 8080}]
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: shadow-containment
+  namespace: csc
+spec:
+  podSelector:
+    matchLabels: {app: csc-shadow}
+  policyTypes: [Ingress, Egress]
+  egress: []
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels: {app: csc-coordinator}
+      ports: [{protocol: TCP, port: 8080}]
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: csc-experiment
+  namespace: csc
+data:
+  distributed.json: |
+    {"schema_version":1,"experiment_name":"distributed-k2","backend":"http",
+     "remote_shadow_urls":["http://shadow-runtime:8080"],"duration_epochs":100,
+     "warmup_epochs":10,"shadow_count":2,"mirror_count":1,"shadow_timeout_s":10}
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: csc-results
+  namespace: csc
+spec:
+  accessModes: [ReadWriteOnce]
+  resources:
+    requests: {storage: 1Gi}
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: csc-experiment
+  namespace: csc
+spec:
+  backoffLimit: 0
+  activeDeadlineSeconds: 1800
+  template:
+    metadata:
+      labels: {app: csc-coordinator}
+    spec:
+      automountServiceAccountToken: false
+      restartPolicy: Never
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        fsGroup: 10001
+        seccompProfile: {type: RuntimeDefault}
+      containers:
+        - name: coordinator
+          image: csc-prototype:0.1.0
+          imagePullPolicy: IfNotPresent
+          command: [python, '-m', csc, /config/distributed.json, '--output', /results]
+          resources:
+            requests: {cpu: '1', memory: 512Mi}
+            limits: {cpu: '1', memory: 512Mi}
+          securityContext:
+            readOnlyRootFilesystem: true
+            allowPrivilegeEscalation: false
+            capabilities: {drop: [ALL]}
+          volumeMounts:
+            - {name: config, mountPath: /config, readOnly: true}
+            - {name: results, mountPath: /results}
+            - {name: scratch, mountPath: /tmp}
+      volumes:
+        - name: config
+          configMap: {name: csc-experiment}
+        - name: results
+          persistentVolumeClaim: {claimName: csc-results}
+        - name: scratch
+          emptyDir: {sizeLimit: 64Mi}

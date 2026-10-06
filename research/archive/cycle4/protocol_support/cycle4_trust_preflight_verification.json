@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "reference_imports": [
+    "copy",
+    "random"
+  ],
+  "reference_sha256": "e1783f3cc11a7368c3a3b311e41a349a2ed83ba6ee8f0a9601d816be2236dcb5",
+  "selector_sha256": "0161aaa297ef5702ea2a6217c4866176f07b1e1c27e27570ddfdf7748037f11b",
+  "mutation_and_firewall_tests": 15,
+  "research_outcomes_generated": false,
+  "final_heldout_generated": false,
+  "final_firewall_fixtures_passed": 4
+}

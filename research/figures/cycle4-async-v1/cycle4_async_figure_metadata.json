@@ -1,0 +1,1 @@
+{"aggregation":"within-run first, then seed medians","matplotlib_version":"3.11.1","metric_definition":"median of five seed-run medians; complete fraction reduced within each run","script_sha256":"b1df306eeb31a7ead5d3bff204d54978c64b95ef24a00441451f85227d859451","seed_count":5,"source_artifact":"results\\cycle4-async\\local-20261005-v1\\analysis.json","units":"ms / fraction"}

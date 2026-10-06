@@ -1,0 +1,48 @@
+{
+  "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+  "development_feature_validation": "PASS",
+  "eligible": 9600,
+  "feature_range": {
+    "divergence": [
+      0.0,
+      1135.089625124064
+    ],
+    "epsilon": [
+      0.0,
+      42.00000000000003
+    ],
+    "estimated_improvement": [
+      -14.75,
+      40.10000000000001
+    ]
+  },
+  "feature_statuses": {
+    "AVAILABLE": 7680,
+    "UNSUPPORTED_SEMANTICS": 1920
+  },
+  "no_performance_selection": true,
+  "series": "C:\\Users\\Adish\\HelloCode\\CC_CP\\results\\cycle4-trust\\development-20261005-v1",
+  "series_manifest_hash": "b9e3c276bbec6506151a70c5ee784ccfcbaff6f921dced2f30bcec20b4019692",
+  "verification": {
+    "analysis_candidate_checks": 0,
+    "bundle_digest": "d190fcb2afa01d6c49c48e7b6ebb8071c6b53151d75d56a5747ea35c2debe5de",
+    "counts": {
+      "anchors": 9600,
+      "feature_AVAILABLE": 7680,
+      "feature_UNSUPPORTED_SEMANTICS": 1920,
+      "replayed_action_pairs": 28800,
+      "runs": 1200
+    },
+    "errors": {},
+    "expected_cells": 60,
+    "expected_runs": 1200,
+    "heldout_access_audit": "runner gating plus absence of final series; external reads not independently auditable",
+    "passed": true,
+    "phase": "development",
+    "seed_range": [
+      801,
+      820
+    ],
+    "split_overlap": false
+  }
+}

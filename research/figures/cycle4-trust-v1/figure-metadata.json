@@ -1,0 +1,18 @@
+{
+  "aggregation": "precision/coverage plot descriptive anchor-weighted totals; inferential bootstrap seed units in analysis JSON/CSV",
+  "analysis_script_sha256": "20a41c1c34b240b4e6770a0f34ed4d5cfca6d8e9e0382e8af4ac6907ea2514b3",
+  "anchors_per_run": 8,
+  "independent_unit": "seed x full cell; shared seed across cells",
+  "matplotlib": "3.11.1",
+  "metrics": {
+    "cell_qualification": "frozen all criteria including exposure (binary)",
+    "coverage": "recommended / eligible (unit fraction)",
+    "precision": "selected reference-positive / recommended (fraction)"
+  },
+  "seed_count": 20,
+  "source_artifacts": {
+    "calibration-selection.json": "8724d5ab51929c3ae0fb3537e736d3444914d1c207601de2ea9249cd3bd5002c",
+    "candidate-cell-summary.csv": "db971f4d09c7d99ee9c1bc34b4f19bd4a76d2d9e9be218bc2be994ffc97a77bb",
+    "candidate-run-summary.csv": "8e4c14d84f95012b5865c822064e5f2a4750cda7f18922b4f924438c82f43ff0"
+  }
+}

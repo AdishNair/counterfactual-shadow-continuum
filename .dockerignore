@@ -1,0 +1,6 @@
+**/__pycache__
+.codegraph
+.git
+.venv
+results
+CSC-Agent-Implementation-Spec.md

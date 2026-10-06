@@ -1,0 +1,7 @@
+# Apply only after installing and verifying the runsc handler on shadow nodes.
+spec:
+  template:
+    spec:
+      runtimeClassName: gvisor
+      nodeSelector:
+        csc.io/shadow: 'true'
