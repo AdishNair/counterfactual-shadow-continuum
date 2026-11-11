@@ -1,0 +1,17 @@
+\begin{table}[t]
+\caption{Paired execution modes: 144 windows each; mean commitment latency.}
+\label{tab:sumo-modes}
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Mode & $K$ & Mirrors & Predictions & Commit ms \\
+\midrule
+Production & 0 & 0 & 0 & 0.050 \\
+One shadow & 1 & 0 & 144 & 0.568 \\
+Mirror & 0 & 1 & 144 & 0.574 \\
+Alternatives & 2 & 0 & 288 & 0.785 \\
+CSC synchronous & 2 & 1 & 432 & 1.001 \\
+CSC asynchronous & 2 & 1 & 432 & 1.046 \\
+\bottomrule
+\end{tabular}
+\end{table}

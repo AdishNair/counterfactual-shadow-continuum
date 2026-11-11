@@ -1,0 +1,961 @@
+{
+  "original_sha256": "c1cc8ee0fa81a02eafc4709ad12d233cfbdd04df37274d73ff9831bcae6fa801",
+  "revised_sha256": "f58575f0af559b1c725f3a43c28488877c07b99087c2fb6a1ca452477dd35a2e",
+  "numeric_tokens_original": 297,
+  "numeric_tokens_revised": 287,
+  "removed_counts": {
+    "144": 2,
+    "1.088": 1,
+    "2.647": 1,
+    "56": 1,
+    "72": 1,
+    "120": 1,
+    "0.23": 1,
+    "0.69": 1,
+    "0": 3,
+    "256": 2,
+    "128": 1,
+    "1.28": 1,
+    "65,207": 1,
+    "96.22": 1,
+    "95.78": 1,
+    "96.00": 1,
+    "93.11": 1,
+    "400": 1,
+    "403": 1,
+    "0.94": 1,
+    "0.52": 1,
+    "64": 1,
+    "512": 1,
+    "299": 1,
+    "0.65": 1,
+    "60": 2,
+    "01": 1,
+    "89e73049": 1,
+    "0.34": 1,
+    "0.58": 1,
+    "0.28": 1
+  },
+  "added_counts": {
+    "0.778": 1,
+    "77.78": 1,
+    "0.222": 1,
+    "0.18": 1,
+    "0.32": 1,
+    "2": 1,
+    "5": 1,
+    "40": 1,
+    "0.3": 3,
+    "2.0": 1,
+    "6": 3,
+    "69": 1,
+    "0.16": 1,
+    "0.37": 1,
+    "3.648333333333335": 1,
+    "2.2061458333333257": 1,
+    "3": 1,
+    "0.9138802083333336": 1,
+    "4": 1,
+    "1.819218749999999": 1,
+    "1.6872656250000007": 1,
+    "0.5979687500000036": 1
+  },
+  "changed_tokens": {
+    "0": {
+      "before": 14,
+      "after": 11,
+      "removed": 3,
+      "added": 0,
+      "original_context": [
+        "ta_{t,a} &= U_{t,a}^{s}-U_t^p,\\\\   R_{t,a}^{d} &= \\max(0,\\Delta_{t,a}-\\epsilon_t). \\end{align} Here $U_{t,a}^{s}$ is a shadow-model",
+        "exes, \\texttt{redis-py} 5.2.1 and \\texttt{nats-py} 2.9.0. Redis ACLs and NATS subject permissions implement separate authorization ",
+        "{sec:sumo-method}  The O5 adapter uses SUMO/TraCI 1.28.0, an independent microscopic traffic implementation~\\cite{sumo2018,sumo-sav",
+        "are distinct throughput counts. Delay integrates $\\max(0,1-v/v_{\\mathrm{allowed}})$ per incoming vehicle per second. Only queue pre",
+        " SUMO, TraCI, sumolib and sumo-data are pinned to 1.28.0 in an isolated environment; SUMO and netconvert executable hashes are arch",
+        "ocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95",
+        "78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epoch interval & 61.757 ms \\\\ Unauthorized mutations & 0 ",
+        "epoch interval & 61.757 ms \\\\ Unauthorized mutations & 0 \\\\ \\bottomrule \\end{tabular} \\end{table}  All 15 optional-store runs retai"
+      ],
+      "revised_context": [
+        "2 and NATS 2.10.26, with client versions 5.2.1 and 2.9.0, respectively. Their permission mechanisms are documented by the projects ",
+        "UMO, TraCI and associated packages were pinned to 1.28.0. Only a capability-bound production component holds the live TraCI connect",
+        "are separate throughput counts. Delay integrates $\\max(0,1-v/v_{\\mathrm{allowed}})$ per incoming vehicle per second, where $v$ is o",
+        "ocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95",
+        "epoch interval & 61.757 ms \\\\ Unauthorized mutations & 0 \\\\ \\bottomrule \\end{tabular} \\end{table}  Under the 0.3-s evidence deadlin",
+        "ors & Predictions & Commit ms \\\\ \\midrule Production & 0 & 0 & 0 & 0.050 \\\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 14",
+        "& Predictions & Commit ms \\\\ \\midrule Production & 0 & 0 & 0 & 0.050 \\\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & ",
+        "edictions & Commit ms \\\\ \\midrule Production & 0 & 0 & 0 & 0.050 \\\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & 0.57"
+      ]
+    },
+    "0.16": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "pt} \\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.16\\textwidth}>{\\raggedright\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\ar"
+      ]
+    },
+    "0.18": {
+      "before": 1,
+      "after": 2,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "\\small \\begin{tabular}{>{\\raggedright\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.28\\textwidth}>{\\raggedright\\ar"
+      ],
+      "revised_context": [
+        "ing \\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.32\\textwidth}>{\\raggedright\\ar",
+        "slash}p{0.16\\textwidth}>{\\raggedright\\arraybackslash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.22\\textwidth}>{\\raggedright\\ar"
+      ]
+    },
+    "0.222": {
+      "before": 2,
+      "after": 3,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "fluid & 2.029 & 0.778 & 0.235 \\\\ Persistence & 3.841 & 0.222 & 2.947 \\\\ Rate mismatch & 2.143 & 0.708 & 0.365 \\\\ \\bottomrule \\end{tabul",
+        "greement was 0.778 (0.625--0.931) versus persistence's 0.222. The denominator is 112/144 policy-indexed cases, equivalent to 56/72 dist"
+      ],
+      "revised_context": [
+        "ion. Best-action agreement was 0.778 (77.78\\%), versus 0.222 for persistence. The predictor uses arrival forecasts and calibration; the",
+        "fluid & 2.029 & 0.778 & 0.235 \\\\ Persistence & 3.841 & 0.222 & 2.947 \\\\ Rate mismatch & 2.143 & 0.708 & 0.365 \\\\ \\bottomrule \\end{tabul",
+        "greement was 0.778 (0.625--0.931) versus persistence's 0.222. The denominator was 112/144 policy-indexed cases, equivalent to 56/72 dis"
+      ]
+    },
+    "0.23": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ing \\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.23\\columnwidth}>{\\raggedright\\arraybackslash}p{0.69\\columnwidth}@{}} \\toprule"
+      ],
+      "revised_context": []
+    },
+    "0.28": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "slash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.28\\textwidth}>{\\raggedright\\arraybackslash}p{0.45\\textwidth}} \\toprule Area &"
+      ],
+      "revised_context": []
+    },
+    "0.3": {
+      "before": 0,
+      "after": 3,
+      "removed": 0,
+      "added": 3,
+      "original_context": [],
+      "revised_context": [
+        "Production pacing was 40 ms. The evidence deadline was 0.3 s after production commit, distinct from the 2.0-s worker timeout. Late ou",
+        " 0 \\\\ \\bottomrule \\end{tabular} \\end{table}  Under the 0.3-s evidence deadline, median complete $K=2$ evidence fell to 0.22\\% at 120 ",
+        "certainty interval is shown. The evidence deadline was 0.3 s after commit.} \\label{fig:delay} \\end{figure}  All 15 optional-store run"
+      ]
+    },
+    "0.32": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "slash}p{0.18\\textwidth}>{\\raggedright\\arraybackslash}p{0.32\\textwidth}>{\\raggedright\\arraybackslash}p{0.45\\textwidth}@{}} \\toprule Are"
+      ]
+    },
+    "0.34": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ing \\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{0.34\\columnwidth}>{\\raggedright\\arraybackslash}p{0.58\\columnwidth}@{}} \\toprule"
+      ],
+      "revised_context": []
+    },
+    "0.37": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "slash}p{0.22\\textwidth}>{\\raggedright\\arraybackslash}p{0.37\\textwidth}@{}} \\toprule Test case & Mechanism tested & Outcome & Observati"
+      ]
+    },
+    "0.52": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ing \\begin{tabular}{cll>{\\raggedright\\arraybackslash}p{0.52\\textwidth}} \\toprule Row & Result & Intended mechanism & Observed evidence"
+      ],
+      "revised_context": []
+    },
+    "0.58": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ash}p{0.34\\columnwidth}>{\\raggedright\\arraybackslash}p{0.58\\columnwidth}@{}} \\toprule Limitation & Required evidence \\\\ \\midrule Simul"
+      ],
+      "revised_context": []
+    },
+    "0.5979687500000036": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\ \\bottomrule \\end{tabular} \\end{table}   \\paragraph{RQ2: Horizon and mis"
+      ]
+    },
+    "0.65": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "g \\begin{tabular}{@{}cl>{\\raggedright\\arraybackslash}p{0.65\\columnwidth}@{}} \\toprule Row & Result & Runtime observation \\\\ \\midrule A"
+      ],
+      "revised_context": []
+    },
+    "0.69": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ash}p{0.23\\columnwidth}>{\\raggedright\\arraybackslash}p{0.69\\columnwidth}@{}} \\toprule Term & Meaning \\\\ \\midrule Production & Sole aut"
+      ],
+      "revised_context": []
+    },
+    "0.778": {
+      "before": 2,
+      "after": 3,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "& Rank & Regret \\\\ \\midrule Calibrated fluid & 2.029 & 0.778 & 0.235 \\\\ Persistence & 3.841 & 0.222 & 2.947 \\\\ Rate mismatch & 2.143 & ",
+        "l counterfactual accuracy.  Fluid action agreement was 0.778 (0.625--0.931) versus persistence's 0.222. The denominator is 112/144 poli"
+      ],
+      "revised_context": [
+        "seline, a 47.18\\% reduction. Best-action agreement was 0.778 (77.78\\%), versus 0.222 for persistence. The predictor uses arrival foreca",
+        "eement & Regret \\\\ \\midrule Calibrated fluid & 2.029 & 0.778 & 0.235 \\\\ Persistence & 3.841 & 0.222 & 2.947 \\\\ Rate mismatch & 2.143 & ",
+        "CSC's branching mechanism.  Fluid action agreement was 0.778 (0.625--0.931) versus persistence's 0.222. The denominator was 112/144 pol"
+      ]
+    },
+    "0.9138802083333336": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "1 & 3.648333333333335 \\\\ 2 & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.59796875000000"
+      ]
+    },
+    "0.94": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "egin{figure*}[t]   \\centering   \\includegraphics[width=0.94\\textwidth]{figures/fig5_gate_b_matrix.pdf}   \\caption{Original frozen Gate"
+      ],
+      "revised_context": []
+    },
+    "01": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "b-followup-20261111T094758Z-5d8f70e4/}; \\path{analysis-01/verified-results.json} is the final derived disposition.  \\subsection{O4 R"
+      ],
+      "revised_context": []
+    },
+    "1.088": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "e paired bootstrap interval for absolute reduction was 1.088--2.647 vehicles. Best-action agreement was 56/72 distinct simulator action",
+        "nce. The paired absolute reduction was 1.812 vehicles (1.088--2.647), a 47.18\\% point-estimate reduction. Thus RQ1 met both frozen crit"
+      ],
+      "revised_context": [
+        "nce. The paired absolute reduction was 1.812 vehicles (1.088--2.647), a 47.18\\% point-estimate reduction. RQ1 met both pre-registered c"
+      ]
+    },
+    "1.28": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "label{sec:sumo-method}  The O5 adapter uses SUMO/TraCI 1.28.0, an independent microscopic traffic implementation~\\cite{sumo2018,sumo-s",
+        " RAM. SUMO, TraCI, sumolib and sumo-data are pinned to 1.28.0 in an isolated environment; SUMO and netconvert executable hashes are ar"
+      ],
+      "revised_context": [
+        "ry. SUMO, TraCI and associated packages were pinned to 1.28.0. Only a capability-bound production component holds the live TraCI conne"
+      ]
+    },
+    "1.6872656250000007": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\ \\bottomrule \\end{tabular} \\end{table}   \\para"
+      ]
+    },
+    "1.819218749999999": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        " & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\ \\bottomrule \\end{ta"
+      ]
+    },
+    "120": {
+      "before": 4,
+      "after": 3,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ts (77.78\\%). A single-host Kubernetes pilot completed 120 deterministic requests. Persistence nevertheless won one restricted-approa",
+        "d{figure}  Delay exposed a narrow operating region. At 120 ms per assignment, median complete $K=2$ evidence fell to 0.22\\%; at 400 m",
+        "\\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epoch interval & 61.757 ms \\",
+        "9e73049...35d1b}. Thirty deterministic groups produced 120 successful requests with zero identity/digest mismatches. Permitted coordi"
+      ],
+      "revised_context": [
+        "ranching or mirrors. An infrastructure pilot completed 120 requests. Complete evidence collapsed under added shadow delay, the contin",
+        "line, median complete $K=2$ evidence fell to 0.22\\% at 120 ms added delay per assignment and to zero at 400 ms (Fig.~\\ref{fig:delay})",
+        " container image. Thirty deterministic groups produced 120 successful requests with zero branch or digest mismatches. Coordinator req"
+      ]
+    },
+    "128": {
+      "before": 3,
+      "after": 2,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "nded memory probe requests 160 MiB within a disposable 128-MiB container. It must preserve its observer and capture an increased OOM ",
+        "acts timed out with reachable controls \\\\ A13 & INC. & 128-MiB pod OOM-killed; observer lost; PID cap unexercised \\\\ A14 & PASS & 80 ",
+        "re counters. This is a real observed OOM event under a 128-MiB limit, but the predeclared observer/counter criterion was not met. PID"
+      ],
+      "revised_context": [
+        "ry probe requested 160 mebibytes (MiB) in a disposable 128-MiB container. Its criterion required observer survival and an increased o",
+        "ed probe also terminated as \\texttt{OOMKilled} under a 128-MiB limit. The latter directly records an OOM event, but the observer did "
+      ]
+    },
+    "144": {
+      "before": 8,
+      "after": 6,
+      "removed": 2,
+      "added": 0,
+      "original_context": [
+        ". A frozen cohort comprises 864 mode executions within 144 paired windows across six seed clusters, with no production-trajectory mis",
+        " a closed-loop policy-improvement experiment.  Each of 144 policy/horizon windows evaluates six paired execution modes: production on",
+        "all 864 mode executions in 36 seed/scenario blocks and 144 policy/horizon windows. There were no failed or excluded cells, collision/",
+        "  \\begin{table}[t] \\caption{Paired O5 execution modes: 144 windows each.} \\label{tab:sumo-modes} \\centering \\begin{tabular}{lrrrr} \\t",
+        "Production & 0 & 0 & 0 & 0.050 \\\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & 0.574 \\\\ Alternatives & 2 & 0 & 288 & 0.",
+        "\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & 0.574 \\\\ Alternatives & 2 & 0 & 288 & 0.785 \\\\ CSC sync & 2 & 1 & 432 & ",
+        "31) versus persistence's 0.222. The denominator is 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon a",
+        "om validity. Pred. counts requested predictions across 144 windows per mode; every requested prediction completed. Mean action-commit"
+      ],
+      "revised_context": [
+        "d actual insertions were recorded separately.  Each of 144 policy/horizon windows evaluated six modes: production only, one alternati",
+        "xecutions completed within 36 seed/scenario blocks and 144 policy/horizon windows. There were no failed or excluded configurations, c",
+        "le}  \\begin{table}[t] \\caption{Paired execution modes: 144 windows each; mean commitment latency.} \\label{tab:sumo-modes} \\centering ",
+        "Production & 0 & 0 & 0 & 0.050 \\\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & 0.574 \\\\ Alternatives & 2 & 0 & 288 & 0.",
+        "\\ One shadow & 1 & 0 & 144 & 0.568 \\\\ Mirror & 0 & 1 & 144 & 0.574 \\\\ Alternatives & 2 & 0 & 288 & 0.785 \\\\ CSC synchronous & 2 & 1 &",
+        "1) versus persistence's 0.222. The denominator was 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon a"
+      ]
+    },
+    "2": {
+      "before": 11,
+      "after": 12,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "cal fault isolation.  Follow-up services use Redis 7.4.2 and NATS 2.10.26 with pinned OCI indexes, \\texttt{redis-py} 5.2.1 and \\tex",
+        "able memory (1,812,451,328 bytes) was below the frozen 2-GiB start threshold. It was classified \\emph{not tested}, not as a perform",
+        "y; two alternatives without mirror; and mirror plus $K=2$ alternatives with synchronous or asynchronous local dispatch. All modes s",
+        "error is \\begin{equation}  e_i^{\\mathrm{alt}}=\\frac{1}{2}\\sum_{a\\ne a_i^p}        |\\widehat q_{i,a}-q_{i,a}^{S}|. \\end{equation} Mi",
+        "rity, not model fidelity to physical traffic.  Warm $K=2$ complete-evidence fractions were 96.22\\% under normal load, 95.78\\% under",
+        "ion{Median complete requested-set evidence for warm $K=2$ short-run   cohorts. Error bars are omitted because only three run units ",
+        "g region. At 120 ms per assignment, median complete $K=2$ evidence fell to 0.22\\%; at 400 ms it was zero (Fig.~\\ref{fig:delay}). Th",
+        "\\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\"
+      ],
+      "revised_context": [
+        "k8s-images}. The authorization services used Redis 7.4.2 and NATS 2.10.26, with client versions 5.2.1 and 2.9.0, respectively. Thei",
+        " persisted evidence. The continuous condition required 2 gibibytes (GiB) available memory before starting.  \\subsection{E2: Contain",
+        "y, alternatives without a mirror, and a mirror plus $K=2$ alternatives with synchronous or asynchronous dispatch. Modes shared init",
+        "_{a\\ne a_i^p}  |\\widehat q_{i,a}-q_{i,a}^{S}|,\\qquad K=2.  \\label{eq:alternative-error} \\end{equation} The reported MAE averages th",
+        "D: available memory was 1,812,451,328 bytes, below the 2-GiB start requirement, so no production epoch ran. Verification replayed 6",
+        "orts the short-run evidence yield and cadence. Warm $K=2$ completeness remained below full coverage under normal load and bounded C",
+        "\\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\",
+        " Under the 0.3-s evidence deadline, median complete $K=2$ evidence fell to 0.22\\% at 120 ms added delay per assignment and to zero "
+      ]
+    },
+    "2.0": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "e was 0.3 s after production commit, distinct from the 2.0-s worker timeout. Late outcomes were excluded from complete comparisons. D"
+      ]
+    },
+    "2.2061458333333257": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "red reduction \\\\ \\midrule 1 & 3.648333333333335 \\\\ 2 & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.68726562500000"
+      ]
+    },
+    "2.647": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "d bootstrap interval for absolute reduction was 1.088--2.647 vehicles. Best-action agreement was 56/72 distinct simulator action sets (",
+        "e paired absolute reduction was 1.812 vehicles (1.088--2.647), a 47.18\\% point-estimate reduction. Thus RQ1 met both frozen criteria wi"
+      ],
+      "revised_context": [
+        "e paired absolute reduction was 1.812 vehicles (1.088--2.647), a 47.18\\% point-estimate reduction. RQ1 met both pre-registered criteria"
+      ]
+    },
+    "256": {
+      "before": 3,
+      "after": 1,
+      "removed": 2,
+      "added": 0,
+      "original_context": [
+        "transition loops independently. Canonical JSON and SHA-256 anchors identify captured state. HMAC-bound tokens carry role, branch, act",
+        "defined candidate grid. The precollection protocol SHA-256 is \\texttt{32b778e0...2662d1}; its complete identity, source snapshots, ex",
+        "e durable records. Sustained unavailability filled the 256-item spool and durable complete evidence fell to zero while production con"
+      ],
+      "revised_context": [
+        "e durable records. Sustained unavailability filled the 256-item spool; durable complete evidence fell to zero while production contin"
+      ]
+    },
+    "299": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "rcised \\\\ A14 & FAIL & CPU limit & Production survived 299 samples; zero throttle events \\\\ \\bottomrule \\end{tabular} \\end{table*}  A",
+        " exercised. A14 retained production responsiveness for 299 samples and exposed a one-CPU cgroup setting, but recorded zero throttling"
+      ],
+      "revised_context": [
+        "l one-thread, one-core test had zero throttles despite 299 successful samples; revised pressure observed 80 throttled periods. \\\\ \\bo"
+      ]
+    },
+    "3": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "ule 1 & 3.648333333333335 \\\\ 2 & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\"
+      ]
+    },
+    "3.648333333333335": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "\\toprule Seed index & Paired reduction \\\\ \\midrule 1 & 3.648333333333335 \\\\ 2 & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.8192187499999"
+      ]
+    },
+    "4": {
+      "before": 0,
+      "after": 1,
+      "removed": 0,
+      "added": 1,
+      "original_context": [],
+      "revised_context": [
+        "\\\\ 2 & 2.2061458333333257 \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\"
+      ]
+    },
+    "40": {
+      "before": 10,
+      "after": 11,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "wo disjoint seeds on moderate/asymmetric demand and 20/40-s horizons to choose a service rate from 0.5, 0.8 and 1.2 vehicle/s by min",
+        "e persistence.  Most cadence medians remained near the 40-ms pacing target, but the worst inter-epoch interval was 61.757 ms under s",
+        " \\\\ \\midrule Low & 20 & 0.438 & 0.908 & 0.466 \\\\ Low & 40 & 0.860 & 2.167 & 0.916 \\\\ Moderate & 20 & 0.861 & 3.442 & 1.173 \\\\ Modera",
+        "\\\\ Moderate & 20 & 0.861 & 3.442 & 1.173 \\\\ Moderate & 40 & 1.344 & 7.060 & 1.922 \\\\ High & 20 & 3.352 & 4.388 & 4.076 \\\\ High & 40 ",
+        "& 1.922 \\\\ High & 20 & 3.352 & 4.388 & 4.076 \\\\ High & 40 & 2.916 & 4.871 & 4.213 \\\\ Asymmetric & 20 & 2.284 & 4.040 & 1.386 \\\\ Asym",
+        "symmetric & 20 & 2.284 & 4.040 & 1.386 \\\\ Asymmetric & 40 & 1.504 & 5.559 & 1.629 \\\\ Change & 20 & 0.688 & 1.233 & 0.733 \\\\ Change &",
+        "629 \\\\ Change & 20 & 0.688 & 1.233 & 0.733 \\\\ Change & 40 & 5.522 & 7.185 & 5.589 \\\\ Restriction & 20 & 1.793 & 1.617 & 1.398 \\\\ Res",
+        "triction & 20 & 1.793 & 1.617 & 1.398 \\\\ Restriction & 40 & 2.780 & 3.621 & 2.212 \\\\ \\bottomrule \\end{tabular} \\end{table}   Table~\\"
+      ],
+      "revised_context": [
+        "U), memory and storage pressure. Production pacing was 40 ms. The evidence deadline was 0.3 s after production commit, distinct from",
+        " disjoint seeds with moderate/asymmetric demand and 20/40-s horizons. It selected 1.2 vehicle/s from 0.5, 0.8 and 1.2 vehicle/s by m",
+        " different outcomes. Cadence medians remained near the 40-ms target, but the worst inter-epoch interval was 61.757 ms under storage ",
+        " \\\\ \\midrule Low & 20 & 0.438 & 0.908 & 0.466 \\\\ Low & 40 & 0.860 & 2.167 & 0.916 \\\\ Moderate & 20 & 0.861 & 3.442 & 1.173 \\\\ Modera",
+        "\\\\ Moderate & 20 & 0.861 & 3.442 & 1.173 \\\\ Moderate & 40 & 1.344 & 7.060 & 1.922 \\\\ High & 20 & 3.352 & 4.388 & 4.076 \\\\ High & 40 ",
+        "& 1.922 \\\\ High & 20 & 3.352 & 4.388 & 4.076 \\\\ High & 40 & 2.916 & 4.871 & 4.213 \\\\ Asymmetric & 20 & 2.284 & 4.040 & 1.386 \\\\ Asym",
+        "symmetric & 20 & 2.284 & 4.040 & 1.386 \\\\ Asymmetric & 40 & 1.504 & 5.559 & 1.629 \\\\ Change & 20 & 0.688 & 1.233 & 0.733 \\\\ Change &",
+        "629 \\\\ Change & 20 & 0.688 & 1.233 & 0.733 \\\\ Change & 40 & 5.522 & 7.185 & 5.589 \\\\ Restriction & 20 & 1.793 & 1.617 & 1.398 \\\\ Res"
+      ]
+    },
+    "400": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ent, median complete $K=2$ evidence fell to 0.22\\%; at 400 ms it was zero (Fig.~\\ref{fig:delay}). These are three sparse observed set",
+        "memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epoch interval & 61.757 ms \\\\ Unautho"
+      ],
+      "revised_context": [
+        "\\% at 120 ms added delay per assignment and to zero at 400 ms (Fig.~\\ref{fig:delay}). These observations depend on the configured dea"
+      ]
+    },
+    "403": {
+      "before": 4,
+      "after": 3,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        " the deny-egress policy. A3--A5 observed explicit HTTP 403 gateway rejections for shadow role, invalid signature, and prior-epoch ide",
+        "TTP timed out \\\\ A3 & PASS & Role authorization & HTTP 403 and role-denied audit event \\\\ A4 & PASS & Signature validation & HTTP 403",
+        "audit event \\\\ A4 & PASS & Signature validation & HTTP 403 and invalid-token event \\\\ A5 & PASS & Epoch binding & HTTP 403 and identi",
+        "nvalid-token event \\\\ A5 & PASS & Epoch binding & HTTP 403 and identity/epoch mismatch \\\\ A6 & FAIL & Single-actuation interlock & Id"
+      ],
+      "revised_context": [
+        "e request & Token role binding & PASS (initial) & HTTP 403 and role-denied audit event. \\\\ Forged token & Signature validation & PASS",
+        "d token & Signature validation & PASS (initial) & HTTP 403 and invalid-token event. \\\\ Prior-epoch token & Epoch binding & PASS (init",
+        "or-epoch token & Epoch binding & PASS (initial) & HTTP 403 and epoch-mismatch event. \\\\ Duplicate actuation & Single-actuation interl"
+      ]
+    },
+    "5": {
+      "before": 1,
+      "after": 2,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "n Windows 11 build 26300, Python 3.14.7, an Intel Core 5 210H (8 cores, 12 logical processors) and 16,788,983,808 bytes installed R"
+      ],
+      "revised_context": [
+        "d Windows 11 build 26300, Python 3.14.7, an Intel Core 5 210H with 8 cores and 12 logical processors, and 16,788,983,808 bytes of r",
+        " \\\\ 3 & 0.9138802083333336 \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\ \\bottomrule \\end{tabular"
+      ]
+    },
+    "512": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "contact \\\\ A13 & NT & Memory/PID bounds & 64 MiB below 512 MiB; PID cap not exercised \\\\ A14 & FAIL & CPU limit & Production survived",
+        "rned no separable DNS/contact record. A13 configured a 512-MiB limit, but the bounded 64-MiB helper did not trigger it; an observed P"
+      ],
+      "revised_context": [
+        "USIVE. The initial 64-MiB allocation did not reach its 512-MiB limit. A revised probe lost its observer with exit 137; a separate bou"
+      ]
+    },
+    "56": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "n was 1.088--2.647 vehicles. Best-action agreement was 56/72 distinct simulator action sets (77.78\\%). A single-host Kubernetes pilo",
+        "minator is 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon action sets; the two policy labels dupli"
+      ],
+      "revised_context": [
+        "inator was 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon action sets (77.78\\%). The policy labels"
+      ]
+    },
+    "6": {
+      "before": 2,
+      "after": 5,
+      "removed": 0,
+      "added": 3,
+      "original_context": [
+        "id-model metrics.  The resampling unit is the seed ($n=6$), with paired conditions averaged within seed before inference. All seeds",
+        "tic whole-seed 95\\% bootstrap percentile intervals ($n=6$); lines connect discrete conditions, not a fitted response model. All dem"
+      ],
+      "revised_context": [
+        "ted.  The independent resampling unit was the seed ($n=6$), after averaging paired conditions within each seed. Deterministic 2,000",
+        "bove are retained from the pre-registered analysis; $n=6$ limits their reliability. \\begin{table}[t] \\caption{Archived Paired MAE R",
+        " \\\\ 4 & 1.819218749999999 \\\\ 5 & 1.6872656250000007 \\\\ 6 & 0.5979687500000036 \\\\ \\bottomrule \\end{tabular} \\end{table}   \\paragraph",
+        "are whole-seed 95\\% bootstrap percentile intervals ($n=6$); lines connect discrete conditions, not a fitted response. All demand an",
+        "hin-seed conditions and epochs are correlated. With $n=6$, percentile interval reliability is limited; the reported intervals remai"
+      ]
+    },
+    "60": {
+      "before": 3,
+      "after": 1,
+      "removed": 2,
+      "added": 0,
+      "original_context": [
+        " A14 & PASS & 80 throttled periods at 0.25-core quota; 60/60 authenticated plan commits \\\\ \\bottomrule \\end{tabular} \\end{table}  Th",
+        "4 & PASS & 80 throttled periods at 0.25-core quota; 60/60 authenticated plan commits \\\\ \\bottomrule \\end{tabular} \\end{table}  The n",
+        "0 was 3.797/4.616 ms and p95 was 18.804/18.406 ms. All 60 requests succeeded, and the complete 62-plan gateway audit matched the dec"
+      ],
+      "revised_context": [
+        "nd ninety-fifth percentile (p95) 18.804/18.406 ms. All 60 requests succeeded; the full 62-plan gateway audit matched the alternating"
+      ]
+    },
+    "64": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "rom external contact \\\\ A13 & NT & Memory/PID bounds & 64 MiB below 512 MiB; PID cap not exercised \\\\ A14 & FAIL & CPU limit & Produ",
+        "ecord. A13 configured a 512-MiB limit, but the bounded 64-MiB helper did not trigger it; an observed PID cap was not exercised. A14 "
+      ],
+      "revised_context": [
+        " Memory enforcement remained INCONCLUSIVE. The initial 64-MiB allocation did not reach its 512-MiB limit. A revised probe lost its o"
+      ]
+    },
+    "65,207": {
+      "before": 3,
+      "after": 2,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        ": Runtime and Evidence Results}  Verification replayed 65,207 archived branches with zero mismatches. Required production coverage was 3",
+        "uted / blocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage ",
+        "mal and bounded pressure, archive replay was exact for 65,207 branches, and tested optional-store faults preserved production. Several K"
+      ],
+      "revised_context": [
+        "ent, so no production epoch ran. Verification replayed 65,207 branches with zero mismatches and covered 30,000 production epochs. Paired",
+        "uted / blocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage "
+      ]
+    },
+    "69": {
+      "before": 1,
+      "after": 2,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "sult \\\\ \\midrule Scheduled / executed / blocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness"
+      ],
+      "revised_context": [
+        "untime Evidence Yield and Fault Isolation} E1 executed 69 short runs. The continuous study was NOT TESTED: available memory was 1,81",
+        "sult \\\\ \\midrule Scheduled / executed / blocked & 70 / 69 / 1 \\\\ Replays / mismatches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness"
+      ]
+    },
+    "72": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "as 1.088--2.647 vehicles. Best-action agreement was 56/72 distinct simulator action sets (77.78\\%). A single-host Kubernetes pilot c",
+        "ator is 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon action sets; the two policy labels duplicat"
+      ],
+      "revised_context": [
+        "tor was 112/144 policy-indexed cases, equivalent to 56/72 distinct seed/scenario/horizon action sets (77.78\\%). The policy labels du"
+      ]
+    },
+    "77.78": {
+      "before": 1,
+      "after": 2,
+      "removed": 0,
+      "added": 1,
+      "original_context": [
+        "on agreement was 56/72 distinct simulator action sets (77.78\\%). A single-host Kubernetes pilot completed 120 deterministic requests. P"
+      ],
+      "revised_context": [
+        " a 47.18\\% reduction. Best-action agreement was 0.778 (77.78\\%), versus 0.222 for persistence. The predictor uses arrival forecasts and",
+        "t to 56/72 distinct seed/scenario/horizon action sets (77.78\\%). The policy labels duplicate the same three-action ranking and are not "
+      ]
+    },
+    "89e73049": {
+      "before": 1,
+      "after": 0,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "r. All nine pods resolved the frozen OCI index \\texttt{89e73049...35d1b}. Thirty deterministic groups produced 120 successful requests wit"
+      ],
+      "revised_context": []
+    },
+    "93.11": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "unded CPU pressure, 96.00\\% under memory pressure, and 93.11\\% under storage pressure (Fig.~\\ref{fig:yield}). The executor reached its ",
+        " & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epoch interval & 61"
+      ],
+      "revised_context": [
+        " & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ Worst inter-epoch interval & 61.757 ms \\\\ Unauthorized mutations & 0 "
+      ]
+    },
+    "95.78": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "ete-evidence fractions were 96.22\\% under normal load, 95.78\\% under bounded CPU pressure, 96.00\\% under memory pressure, and 93.11\\% u",
+        "=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epo"
+      ],
+      "revised_context": [
+        "=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ Worst inter-epoch interval & 61.757 ms \\\\ Unauthorize"
+      ]
+    },
+    "96.00": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        "under normal load, 95.78\\% under bounded CPU pressure, 96.00\\% under memory pressure, and 93.11\\% under storage pressure (Fig.~\\ref{fig",
+        "leteness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms delay & 0.22 / 0\\% \\\\ Worst inter-epoch inter"
+      ],
+      "revised_context": [
+        "leteness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ Worst inter-epoch interval & 61.757 ms \\\\ Unauthorized mutati"
+      ]
+    },
+    "96.22": {
+      "before": 2,
+      "after": 1,
+      "removed": 1,
+      "added": 0,
+      "original_context": [
+        " traffic.  Warm $K=2$ complete-evidence fractions were 96.22\\% under normal load, 95.78\\% under bounded CPU pressure, 96.00\\% under mem",
+        "tches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ 120-ms / 400-ms d"
+      ],
+      "revised_context": [
+        "tches & 65,207 / 0 \\\\ Normal warm $K=2$ completeness & 96.22\\% \\\\ CPU / memory / storage & 95.78 / 96.00 / 93.11\\% \\\\ Worst inter-epoch"
+      ]
+    }
+  },
+  "unique_values_removed": [
+    "0.23",
+    "0.28",
+    "0.34",
+    "0.52",
+    "0.58",
+    "0.65",
+    "0.69",
+    "0.94",
+    "01",
+    "89e73049"
+  ],
+  "unique_values_added": [
+    "0.16",
+    "0.3",
+    "0.32",
+    "0.37",
+    "0.5979687500000036",
+    "0.9138802083333336",
+    "1.6872656250000007",
+    "1.819218749999999",
+    "2.0",
+    "2.2061458333333257",
+    "3",
+    "3.648333333333335",
+    "4"
+  ],
+  "citation_keys_unchanged": [
+    "achiam2017cpo",
+    "agache2020firecracker",
+    "avizienis2004dependable",
+    "bottou2013counterfactual",
+    "dean2004mapreduce",
+    "fuller2020digital",
+    "garcia2015safe",
+    "istio-mirroring",
+    "jiang2016doubly",
+    "k8s-images",
+    "k8s-networkpolicy",
+    "k8s-resources",
+    "k8s-securitycontext",
+    "li2011unbiased",
+    "nats-authorization",
+    "redis-acl",
+    "satyanarayanan2017edge",
+    "shi2016edge",
+    "sumo-lanes",
+    "sumo-save-state",
+    "sumo-tls",
+    "sumo2018",
+    "tao2019digital",
+    "wang2017optimal"
+  ],
+  "bibliography_bytes_unchanged": true,
+  "simulator_table_numeric_sequences_unchanged": true,
+  "initial_containment_outcomes_preserved": true,
+  "all_figures_tables_referenced": true,
+  "section_order": [
+    "Introduction",
+    "Related Work",
+    "Problem Formulation",
+    "CSC Architecture",
+    "Prototype and Implementation",
+    "Experimental Methodology",
+    "Results",
+    "Discussion",
+    "Limitations and Threats to Validity",
+    "Conclusion"
+  ],
+  "original_result_numeric_values_preserved": [
+    "0",
+    "0.050",
+    "0.075",
+    "0.22",
+    "0.222",
+    "0.235",
+    "0.25",
+    "0.251",
+    "0.365",
+    "0.438",
+    "0.453",
+    "0.466",
+    "0.568",
+    "0.574",
+    "0.625",
+    "0.688",
+    "0.708",
+    "0.733",
+    "0.778",
+    "0.785",
+    "0.860",
+    "0.861",
+    "0.908",
+    "0.916",
+    "0.931",
+    "1",
+    "1.001",
+    "1.046",
+    "1.088",
+    "1.173",
+    "1.233",
+    "1.344",
+    "1.386",
+    "1.398",
+    "1.5",
+    "1.504",
+    "1.570",
+    "1.617",
+    "1.629",
+    "1.715",
+    "1.793",
+    "1.812",
+    "1.922",
+    "100000",
+    "112",
+    "12",
+    "120",
+    "128",
+    "13.198",
+    "133.30",
+    "135.64",
+    "137",
+    "138.78",
+    "14.980",
+    "144",
+    "15",
+    "18.406",
+    "18.804",
+    "2",
+    "2.009",
+    "2.029",
+    "2.117",
+    "2.143",
+    "2.167",
+    "2.212",
+    "2.284",
+    "2.343",
+    "2.360",
+    "2.488",
+    "2.637",
+    "2.647",
+    "2.780",
+    "2.916",
+    "2.947",
+    "20",
+    "200",
+    "25000",
+    "256",
+    "288",
+    "299",
+    "3.352",
+    "3.374",
+    "3.442",
+    "3.621",
+    "3.797",
+    "3.841",
+    "30,000",
+    "36",
+    "4.040",
+    "4.076",
+    "4.213",
+    "4.388",
+    "4.510",
+    "4.616",
+    "4.871",
+    "40",
+    "400",
+    "403",
+    "43,220,992",
+    "43,268",
+    "432",
+    "47.18",
+    "5.522",
+    "5.559",
+    "5.589",
+    "512",
+    "56",
+    "576,106",
+    "6",
+    "60",
+    "61.757",
+    "62",
+    "64",
+    "65,207",
+    "69",
+    "7.060",
+    "7.185",
+    "70",
+    "72",
+    "8.001",
+    "80",
+    "864",
+    "9,294",
+    "93.11",
+    "95",
+    "95.78",
+    "96.00",
+    "96.22",
+    "96.44"
+  ],
+  "abstract_words": 174,
+  "leaked_internal_matches": []
+}

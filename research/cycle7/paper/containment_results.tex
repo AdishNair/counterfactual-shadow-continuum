@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\caption{Containment and Authorization Outcomes. Initial Outcomes Remain Visible; Revised Probes Were Separate Tests.}
+\label{tab:containment}
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.37\textwidth}@{}}
+\toprule
+Test case & Mechanism tested & Outcome & Observation \\
+\midrule
+Shadow non-actuation & Virtual actuator & PASS (initial) & Local virtual-only record; authoritative state unchanged. \\
+Direct environment access & Network policy & PASS (initial) & Shadow-to-environment HTTP timed out. \\
+Shadow-role request & Token role binding & PASS (initial) & HTTP 403 and role-denied audit event. \\
+Forged token & Signature validation & PASS (initial) & HTTP 403 and invalid-token event. \\
+Prior-epoch token & Epoch binding & PASS (initial) & HTTP 403 and epoch-mismatch event. \\
+Duplicate actuation & Single-actuation interlock & FAIL (initial); PASS (re-test) & Initial request binding failed before the interlock; authenticated revised probes admitted one plan per epoch and denied eight duplicates. \\
+Protected assignments & Redis ACL & N/A (initial); PASS (re-test) & Redis was initially absent; coordinator operations succeeded and eight protected/cross-branch worker operations were denied. \\
+Result subjects and admission & NATS permissions and HMAC & N/A (initial); PASS (re-test) & Bus initially absent; two estimates accepted, twelve invalid results rejected, nine broker permission denials. \\
+Root-filesystem mutation & Read-only filesystem & PASS (initial) & Write failed as read-only. \\
+Host-file access & No privileged host mount & PASS (initial) & Protected host-root access denied; no host mount. \\
+Raw packet access & Dropped capabilities & PASS (initial) & Raw socket creation denied. \\
+DNS and external contact & Network policy & INCONCLUSIVE (initial); PASS (re-test) & Initial probe did not separate DNS/contact; revised DNS succeeded and prohibited contacts failed with reachable controls. \\
+Memory and PID limits & Cgroup enforcement & NOT TESTED (initial); INCONCLUSIVE (re-test) & Initial allocation stayed below quota; revised memory pod was OOM-killed and lost its observer. PID enforcement remains NOT TESTED. \\
+CPU quota & Cgroup throttling & FAIL (initial); PASS (re-test) & Initial one-thread, one-core test had zero throttles despite 299 successful samples; revised pressure observed 80 throttled periods. \\
+\bottomrule
+\end{tabular}
+\end{table*}

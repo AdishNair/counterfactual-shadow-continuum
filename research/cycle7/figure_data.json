@@ -1,0 +1,36 @@
+{
+  "gate_a": {
+    "complete_evidence_percent": {
+      "Normal": 96.22,
+      "CPU pressure": 95.78,
+      "Memory pressure": 96.00,
+      "Storage pressure": 93.11
+    },
+    "delay_percent": {
+      "Normal (0 ms)": 96.22,
+      "120 ms": 0.22,
+      "400 ms": 0.00
+    }
+  },
+  "gate_b": {
+    "A1": "PASS",
+    "A2": "PASS",
+    "A3": "PASS",
+    "A4": "PASS",
+    "A5": "PASS",
+    "A6": "FAIL",
+    "A7": "NOT APPLICABLE",
+    "A8": "NOT APPLICABLE",
+    "A9": "PASS",
+    "A10": "PASS",
+    "A11": "PASS",
+    "A12": "INCONCLUSIVE",
+    "A13": "NOT TESTED",
+    "A14": "FAIL"
+  },
+  "provenance": {
+    "gate_a_identity": "0f54874839f58ed2ecdea80ce94a9f585c61ff5bbeebd53787e5f77dac89bb82",
+    "gate_b_identity": "5c4e9bd2d853d189f5450f5e539bd0cb613fae6c842f543899e4a7d52fcb82b0",
+    "gate_b_image": "sha256:8a48256c33842166295a8cc43aafeadcb806d775083ecc42365ade4ef5bab9f1"
+  }
+}

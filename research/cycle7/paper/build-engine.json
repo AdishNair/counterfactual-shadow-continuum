@@ -1,0 +1,10 @@
+{
+  "engine": "Tectonic 0.17.0, Windows x86_64 MSVC",
+  "executable_sha256": "99ffcfdbf1ebf8bdda9e791942e3d06aedb12463fddc33f07de6f5211c8bf08d",
+  "release_url": "https://github.com/tectonic-typesetting/tectonic/releases/tag/tectonic%400.17.0",
+  "archive_url": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-x86_64-pc-windows-msvc.zip",
+  "archive_sha256": "f61ce51f0b0ade1015b7de7ef368541c5424e9756ecbd0d7af97d6d48030845f",
+  "bundle_url": "https://relay.fullyjustified.net/default_bundle_v33.tar",
+  "bundle_identity": "6ffe055852f8faf66c0acbe1a7fb27f87b869a90bad1204f3bf4d9683f597c7c",
+  "mode": "offline cached resources, untrusted inputs, automatic BibTeX/reference passes"
+}
